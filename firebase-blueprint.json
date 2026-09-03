@@ -1,0 +1,62 @@
+{
+  "collections": [
+    {
+      "name": "users",
+      "fields": [
+        { "name": "uid", "type": "string", "description": "Unique user ID" },
+        { "name": "email", "type": "string", "description": "User email address" },
+        { "name": "displayName", "type": "string", "description": "User display name" },
+        { "name": "photoURL", "type": "string", "description": "User avatar URL" },
+        { "name": "role", "type": "string", "description": "User role: viewer | author | admin" },
+        { "name": "createdAt", "type": "timestamp" },
+        { "name": "lastLoginAt", "type": "timestamp" }
+      ],
+      "rules": [
+        { "action": "read", "condition": "true" },
+        { "action": "create", "condition": "request.auth.uid == userId" },
+        { "action": "update", "condition": "request.auth.uid == userId" }
+      ]
+    },
+    {
+      "name": "dossiers",
+      "fields": [
+        { "name": "ownerId", "type": "string", "description": "The user ID of the owner" },
+        { "name": "isPublic", "type": "boolean" },
+        { "name": "title", "type": "string" },
+        { "name": "contentMarkdown", "type": "string" }
+      ],
+      "rules": [
+        { "action": "read", "condition": "true" },
+        { "action": "create", "condition": "request.auth != null && request.resource.data.ownerId == request.auth.uid" },
+        { "action": "update", "condition": "request.auth != null && (request.auth.uid == resource.data.ownerId || request.auth.token.email == 'quechoa.everywhere@gmail.com')" },
+        { "action": "delete", "condition": "request.auth != null && (request.auth.uid == resource.data.ownerId || request.auth.token.email == 'quechoa.everywhere@gmail.com')" }
+      ]
+    },
+    {
+      "name": "systemLogs",
+      "fields": [
+        { "name": "userId", "type": "string" },
+        { "name": "action", "type": "string" },
+        { "name": "tokenCount", "type": "number" },
+        { "name": "timestamp", "type": "timestamp" }
+      ],
+      "rules": [
+        { "action": "read", "condition": "request.auth != null && (request.auth.uid == resource.data.userId || request.auth.token.email == 'quechoa.everywhere@gmail.com')" },
+        { "action": "create", "condition": "request.auth != null && request.resource.data.userId == request.auth.uid" }
+      ]
+    },
+    {
+      "name": "settings",
+      "fields": [
+        { "name": "isContentEditLocked", "type": "boolean" },
+        { "name": "updatedAt", "type": "string" },
+        { "name": "updatedBy", "type": "string" }
+      ],
+      "rules": [
+        { "action": "read", "condition": "true" },
+        { "action": "create", "condition": "request.auth != null" },
+        { "action": "update", "condition": "request.auth != null" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "cit-laozi-ddk",
+    "title": "Đạo Đức Kinh (Dao De Jing)",
+    "author": "Lão Tử (Laozi)",
+    "year": "Thế kỷ 4 TCN",
+    "source": "Cổ thư Đạo gia Trung Hoa",
+    "category": "Kinh điển",
+    "doiOrUrl": "https://ctext.org/dao-de-jing",
+    "keyQuote": "Đạo thường vô vi nhi vô bất vi. Hầu vương nhược năng thủ chi, vạn vật tương tự hóa.",
+    "dossierIds": [
+      "dossier-wuwei-stateless"
+    ],
+    "quote": "Đạo thường vô vi nhi vô bất vi. Hầu vương nhược năng thủ chi, vạn vật tương tự hóa."
+  },
+  {
+    "id": "cit-suntzu-artofwar",
+    "title": "Binh Pháp Tôn Tử (The Art of War)",
+    "author": "Tôn Vũ (Sun Tzu)",
+    "year": "Thế kỷ 5 TCN",
+    "source": "Binh thư Cổ điển",
+    "category": "Kinh điển",
+    "doiOrUrl": "https://ctext.org/art-of-war",
+    "keyQuote": "Binh giả, quỷ đạo dã. Tri bỉ tri kỷ, bách chiến bất đãi.",
+    "dossierIds": [
+      "dossier-suntzu-byzantine"
+    ],
+    "quote": "Binh giả, quỷ đạo dã. Tri bỉ tri kỷ, bách chiến bất đãi."
+  },
+  {
+    "id": "cit-zhuangzi-qiwulun",
+    "title": "Trang Tử - Nam Hoa Kinh (Tề Vật Luận)",
+    "author": "Trang Chu (Zhuangzi)",
+    "year": "Thế kỷ 4 TCN",
+    "source": "Cổ thư Đạo học",
+    "category": "Kinh điển",
+    "doiOrUrl": "https://ctext.org/zhuangzi",
+    "keyQuote": "Thiên địa dữ ngã tịnh sinh, nhi vạn vật dữ ngã vi nhất (Trời đất cùng ta sinh ra, vạn vật cùng ta là một).",
+    "dossierIds": [
+      "dossier-zhuangzi-multiagent"
+    ],
+    "quote": "Thiên địa dữ ngã tịnh sinh, nhi vạn vật dữ ngã vi nhất (Trời đất cùng ta sinh ra, vạn vật cùng ta là một)."
+  },
+  {
+    "id": "cit-marcus-meditations",
+    "title": "Suy Tưởng (Meditations)",
+    "author": "Marcus Aurelius",
+    "year": "180 SCN",
+    "source": "Chủ nghĩa Khắc Kỷ La Mã (Penguin Classics)",
+    "category": "Kinh điển",
+    "doiOrUrl": "https://classics.mit.edu/Antoninus/meditations.html",
+    "keyQuote": "The impediment to action advances action. What stands in the way becomes the way.",
+    "dossierIds": [
+      "dossier-stoicism-resilience"
+    ],
+    "quote": "The impediment to action advances action. What stands in the way becomes the way."
+  },
+  {
+    "id": "cit-epictetus-enchiridion",
+    "title": "Cẩm Nang Khắc Kỷ (Enchiridion)",
+    "author": "Epictetus",
+    "year": "125 SCN",
+    "source": "Triết học Hy Lạp - La Mã",
+    "category": "Kinh điển",
+    "keyQuote": "Some things are in our control and others not. Things in our control are opinion, pursuit, desire, aversion, and whatever are our own actions.",
+    "dossierIds": [
+      "dossier-stoicism-resilience"
+    ],
+    "quote": "Some things are in our control and others not. Things in our control are opinion, pursuit, desire, aversion, and whatever are our own actions."
+  },
+  {
+    "id": "cit-lamport-byzantine",
+    "title": "The Byzantine Generals Problem",
+    "author": "Leslie Lamport, Robert Shostak, Marshall Pease",
+    "year": 1982,
+    "source": "ACM Transactions on Programming Languages and Systems (TOPLAS), Vol. 4, No. 3",
+    "category": "IEEE / ACM Papers",
+    "doiOrUrl": "https://doi.org/10.1145/357172.357176",
+    "keyQuote": "Reliable computer systems must handle malfunctioning components that give conflicting information to different parts of the system.",
+    "dossierIds": [
+      "dossier-suntzu-byzantine"
+    ],
+    "quote": "Reliable computer systems must handle malfunctioning components that give conflicting information to different parts of the system."
+  },
+  {
+    "id": "cit-brewer-cap",
+    "title": "Towards Robust Distributed Systems (Brewer's CAP Theorem)",
+    "author": "Eric A. Brewer",
+    "year": 2000,
+    "source": "ACM Symposium on Principles of Distributed Computing (PODC Keynote)",
+    "category": "IEEE / ACM Papers",
+    "doiOrUrl": "https://doi.org/10.1145/343477.343502",
+    "keyQuote": "Shared-data systems can guarantee at most two of the three: Consistency, Availability, and Partition Tolerance.",
+    "dossierIds": [
+      "dossier-cap-yijing"
+    ],
+    "quote": "Shared-data systems can guarantee at most two of the three: Consistency, Availability, and Partition Tolerance."
+  },
+  {
+    "id": "cit-kleppmann-ddia",
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "year": 2017,
+    "source": "O'Reilly Media",
+    "category": "Sách Khoa học",
+    "doiOrUrl": "https://dataintensive.net/",
+    "keyQuote": "The fundamental truth about distributed systems is that you cannot avoid network partitions and latency.",
+    "dossierIds": [
+      "dossier-cqrs-yinyang",
+      "dossier-cap-yijing"
+    ],
+    "quote": "The fundamental truth about distributed systems is that you cannot avoid network partitions and latency."
+  },
+  {
+    "id": "cit-fielding-rest",
+    "title": "Architectural Styles and the Design of Network-based Software Architectures",
+    "author": "Roy Thomas Fielding",
+    "year": 2000,
+    "source": "Doctoral dissertation, University of California, Irvine",
+    "category": "IEEE / ACM Papers",
+    "keyQuote": "Stateless communication improves visibility, reliability, and scalability.",
+    "dossierIds": [
+      "dossier-wuwei-stateless"
+    ],
+    "quote": "Stateless communication improves visibility, reliability, and scalability."
+  },
+  {
+    "id": "cit-gemini-grounding",
+    "title": "Google Gemini 2.5 & 3.7 Technical Overview with Real-Time Search Grounding",
+    "author": "Google DeepMind Team",
+    "year": 2026,
+    "source": "Google AI Research Publication",
+    "category": "Nghiên cứu AI",
+    "doiOrUrl": "https://ai.google.dev/",
+    "keyQuote": "Search Grounding connects generative LLM capabilities with live factual verification and verifiable web citations.",
+    "dossierIds": [
+      "dossier-wuwei-stateless",
+      "dossier-zhuangzi-multiagent"
+    ],
+    "quote": "Search Grounding connects generative LLM capabilities with live factual verification and verifiable web citations."
+  }
+]

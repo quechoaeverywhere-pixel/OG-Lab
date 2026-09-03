@@ -1,0 +1,729 @@
+[
+  {
+    "id": "lex-wuwei",
+    "term": "Vô vi (Wu Wei) / 無爲",
+    "enTerm": "Stateless Decoupling & Reactive Execution",
+    "category": "Triết học Đông phương",
+    "philosophicalOrigin": "Đạo Đức Kinh - Lão Tử (Chương 37, 48)",
+    "csEquivalent": "Stateless Microservices, Pure Functions, Zero-Shared State, Serverless Cloud Functions",
+    "deepExplanation": "Hành động không can thiệp chủ quan, không níu giữ trạng thái quá khứ, thuận theo quy luật khách quan của hệ thống để đạt hiệu quả tối thượng.",
+    "applicationInAgents": "Thiết kế Agent Tool-Calling theo từng chu kỳ suy luận độc lập, không để rác ngữ cảnh (Context Pollution) làm suy giảm độ chính xác.",
+    "tags": [
+      "Lão Tử",
+      "Stateless",
+      "Architecture"
+    ]
+  },
+  {
+    "id": "lex-quidao",
+    "term": "Quỷ đạo (Gui Dao) & Binh bất yểm trá / 兵不厭詐",
+    "enTerm": "Byzantine Fault Tolerance & Zero Trust Architecture",
+    "category": "An ninh & Độ tin cậy",
+    "philosophicalOrigin": "Binh Pháp Tôn Tử - Thiên Kế & Thiên Dụng Gián",
+    "csEquivalent": "Byzantine Fault Tolerance (BFT), Zero Trust (ZTA), Cryptographic Nonces, Adversarial Red-Teaming",
+    "deepExplanation": "Giả định môi trường luôn tiềm ẩn các tác nhân thù địch hoặc thông tin sai lệch; không tin tưởng mù quáng bất kỳ kênh truyền thông nào.",
+    "applicationInAgents": "Áp dụng cơ chế đồng thuận đa Agent (Multi-Agent Consensus) và phát hiện Prompt Injection trước khi cấp quyền thực thi công cụ nguy hiểm.",
+    "tags": [
+      "Tôn Tử",
+      "BFT",
+      "Security"
+    ]
+  },
+  {
+    "id": "lex-amduong",
+    "term": "Âm Dương Biến Dịch / 陰陽易理",
+    "enTerm": "CAP Theorem & Dynamic System Equilibrium (PACELC)",
+    "category": "Triết học Đông phương",
+    "philosophicalOrigin": "Kinh Dịch (I Ching) - Hệ Từ Thượng",
+    "csEquivalent": "CAP Theorem, PACELC, Eventual Consistency, CRDTs, Write vs Read Optimizations",
+    "deepExplanation": "Sự tương tác chuyển hóa giữa hai cực đối lập (Âm - Tĩnh, bảo toàn / Dương - Động, sẵn sàng); không có hệ thống hoàn hảo tuyệt đối mọi chiều kích trong không gian vật lý.",
+    "applicationInAgents": "Cân bằng giữa tốc độ phản hồi tức thì (Low Latency Flash Inference) và độ sâu lập luận suy tưởng (High Reasoning Thinking Tokens).",
+    "tags": [
+      "Kinh Dịch",
+      "CAP",
+      "Distributed Systems"
+    ]
+  },
+  {
+    "id": "lex-dichotomy",
+    "term": "Phân đôi Quyền kiểm soát (Dichotomy of Control)",
+    "enTerm": "Circuit Breaker & Graceful Degradation Pattern",
+    "category": "Triết học Tây phương",
+    "philosophicalOrigin": "Chủ nghĩa Khắc kỷ (Stoicism) - Epictetus & Marcus Aurelius",
+    "csEquivalent": "Circuit Breakers, Supervision Trees (Erlang/OTP), Health Probes, Fail-Safe Fallbacks, SRE Antifragility",
+    "deepExplanation": "Tập trung tuyệt đối vào những gì trong tầm kiểm soát nội tại của hệ thống (Catch error, trả fallback, phục hồi); chấp nhận sự bất ổn của ngoại cảnh (Mạng đứt, dịch vụ ngoài sập).",
+    "applicationInAgents": "Khi LLM API hoặc Google Search gặp lỗi, Agent tự động kích hoạt fallback local cache hoặc điều chỉnh độ tự tin mà không bị sụp đổ toàn bộ pipeline.",
+    "tags": [
+      "Stoicism",
+      "Resilience",
+      "SRE"
+    ]
+  },
+  {
+    "id": "lex-the-dung",
+    "term": "Thể Dụng Nhất Nguyên / 體用一源",
+    "enTerm": "CQRS & Event Sourcing (Command-Query Segregation)",
+    "category": "Kiến trúc Hệ thống",
+    "philosophicalOrigin": "Tống Nho - Chu Hy, Vương Dương Minh",
+    "csEquivalent": "Command Query Responsibility Segregation (CQRS), Event Sourcing, Append-Only Immutable Logs, Kafka",
+    "deepExplanation": "Thể là bản thể lịch sử bất biến (Event Log); Dụng là các tướng trạng biểu hiện linh hoạt phục vụ nhu cầu đọc (Read Projections). Cả hai đồng quy trong một hệ thống nhất thể.",
+    "applicationInAgents": "Lưu toàn bộ lịch sử tư duy (Chain of Thought & Tool Interactions) vào Immutable Audit Log để tái hiện hoặc huấn luyện lại (RLHF/DPO).",
+    "tags": [
+      "CQRS",
+      "Event Sourcing",
+      "Philosophy"
+    ]
+  },
+  {
+    "id": "lex-thienlai",
+    "term": "Thiên lại & Vạn vật tề nhất / 天籟齊物",
+    "enTerm": "Decentralized Multi-Agent Swarm Intelligence & Emergence",
+    "category": "Agentic AI",
+    "philosophicalOrigin": "Nam Hoa Kinh - Trang Tử (Tề Vật Luận)",
+    "csEquivalent": "Swarm Intelligence, Autonomous Multi-Agent Orchestration, Semantic Routing, Emergent Behavior",
+    "deepExplanation": "Âm thanh hài hòa của trời đất không cần một người chỉ huy cưỡng bức; các cá thể nhỏ phối hợp theo quy luật tự nhiên nảy sinh trí tuệ vĩ mô vượt trội.",
+    "applicationInAgents": "Mô hình phân rã nhiệm vụ phức tạp cho bầy Agents chuyên biệt (Sub-agents for Search, Code, Verification, Drafting).",
+    "tags": [
+      "Trang Tử",
+      "Multi-Agent",
+      "Emergence"
+    ]
+  },
+  {
+    "id": "lex-1788337005483-1-esk3",
+    "term": "Nút Mạng Sinh Thái Đô Thị",
+    "enTerm": "Urban Ecological Node",
+    "category": "Liên Ngành Đột Phá",
+    "sourceDiscipline": "Kinh Tế Sinh Thái & Xã Hội Học Đô Thị",
+    "philosophicalOrigin": "Khái niệm trao đổi chất đô thị (Urban Metabolism) của Wolman (1965) kết hợp với lý thuyết mạng lưới sinh thái.",
+    "csEquivalent": "Active Processing Node in Distributed Network Topology",
+    "deepExplanation": "Thay vì chỉ là một cửa hàng bán xong lấy tiền rồi vứt rác ra đường, nút mạng này giống như một trạm thanh lọc của khu phố: vừa nhận rau tươi từ vườn gần giao đến, vừa thu gom vỏ chai và rác rau củ thừa về ủ thành phân bón trả lại cho đất trồng cây.",
+    "applicationInAgents": "Áp dụng để thiết kế các Agent điều phối chuỗi cung ứng cục bộ, tự động cân đối giữa lượng cung nông sản tươi nhập về và năng lực thu gom, tái chế sinh khối tại từng cụm dân cư.",
+    "tags": [
+      "SinhTháiĐôThị",
+      "KinhTếTuầnHoàn",
+      "BánLẻ0km"
+    ]
+  },
+  {
+    "id": "lex-1788337005483-2-66op",
+    "term": "Tính Cắm Rễ Xã Hội",
+    "enTerm": "Social Embeddedness",
+    "category": "Thể Chế & Xã Hội",
+    "sourceDiscipline": "Kinh Tế Thể Chế Mới & Xã Hội Học Kinh Tế",
+    "philosophicalOrigin": "Phát triển bởi Karl Polanyi (1944) và hoàn thiện bởi Mark Granovetter (1985).",
+    "csEquivalent": "Context-Aware Agent Architecture / Domain Grounding",
+    "deepExplanation": "Mua bán không chỉ là chuyện tiền trao cháo múc giữa hai người xa lạ, mà là việc mua hàng từ người hàng xóm quen biết, nơi uy tín, tình làng nghĩa xóm và trách nhiệm bảo vệ môi trường chung giữ cho việc mua bán luôn trung thực mà không cần tốn tiền thuê kiểm định rườm rà.",
+    "applicationInAgents": "Mô hình hóa hệ thống chấm điểm tín nhiệm phi tập trung (Decentralized Trust Scoring) dựa trên lịch sử tương tác và đóng góp tuần hoàn của các tác nhân trong mạng lưới cộng đồng.",
+    "tags": [
+      "VốnXãHội",
+      "ThểChếMới",
+      "NiềmTinCộngĐồng"
+    ]
+  },
+  {
+    "id": "lex-1788337005483-3-d7c8",
+    "term": "Chuỗi Cung Ứng Nông Sản 0km",
+    "enTerm": "0km Hyper-Local Agri-Supply Chain",
+    "category": "Vận Hành & Chuỗi Cung Ứng",
+    "sourceDiscipline": "Kinh Tế Nông Nghiệp Đô Thị",
+    "philosophicalOrigin": "Phong trào 'Km 0' (Chilometro Zero) bắt nguồn từ Ý và triết lý Tiêu dùng Thực phẩm Bản địa (Locavorism).",
+    "csEquivalent": "Zero-Hop Routing / Local Edge Cache Delivery",
+    "deepExplanation": "Rau quả được trồng ngay tại ban công, sân thượng hoặc các nông trại ở rìa thành phố gần nhất, hái lúc sáng sớm và đem giao thẳng đến người ăn trong vài tiếng, không qua 4-5 tầng lái buôn, không dùng thuốc giữ tươi và không tốn tiền xe chở xuyên quốc gia.",
+    "applicationInAgents": "Thuật toán định tuyến giao hàng thời gian thực kết nối trực tiếp các đơn vị sản xuất vi mô (micro-farms) với các nút mạng bán lẻ lân cận mà không cần qua kho tổng.",
+    "tags": [
+      "LogisticsSiêuNgắn",
+      "NôngSản0km",
+      "GiảmPhátThải"
+    ]
+  },
+  {
+    "id": "lex-1788337035325-1-7plk",
+    "term": "Chuỗi Cung Ứng Thực Phẩm Siêu Ngắn",
+    "enTerm": "Short Food Supply Chains (SFSCs)",
+    "category": "Liên Ngành Đột Phá",
+    "sourceDiscipline": "Kinh Tế Nông Nghiệp & Quản Trị Chuỗi Cung Ứng",
+    "philosophicalOrigin": "Khái niệm phát triển từ phong trào Nông nghiệp Sinh thái Châu Âu nhằm giảm thiểu trung gian thương mại và kết nối trực tiếp nhà sản xuất với người tiêu dùng.",
+    "csEquivalent": "Direct Peer-to-Peer Routing / Low-Latency Pipeline",
+    "deepExplanation": "Là cách đưa mớ rau, quả cà chua từ vườn của người nông dân đến thẳng bàn ăn nhà bạn mà không phải qua 4-5 tay lái buôn hay nằm chợ đầu mối 2-3 ngày. Nhờ vậy rau luôn tươi rói, người trồng được trả công xứng đáng, người ăn không lo hóa chất bảo quản.",
+    "applicationInAgents": "Xây dựng giao thức định tuyến đơn hàng trực tiếp giữa tác tử nông trại (Producer Agent) và tác tử người dùng (Consumer Agent) mà không cần lớp điều phối trung gian độc quyền.",
+    "tags": [
+      "SFSCs",
+      "SupplyChain",
+      "0km"
+    ]
+  },
+  {
+    "id": "lex-1788337035325-2-38lk",
+    "term": "Dặm Đường Thực Phẩm",
+    "enTerm": "Food Miles",
+    "category": "Kinh Tế Sinh Thái",
+    "sourceDiscipline": "Sinh Thái Học Đô Thị",
+    "philosophicalOrigin": "Do Tim Lang khởi xướng đầu thập niên 1990 để đo lường khoảng cách địa lý thực phẩm phải di chuyển từ nơi sản xuất đến người tiêu thụ.",
+    "csEquivalent": "Network Hop Count & Latency Cost",
+    "deepExplanation": "Số kilômét mà miếng ăn của bạn phải 'đi du lịch' trước khi vào bụng. Càng đi xa, xe cộ càng xả nhiều khói bụi, rau củ càng mất chất dinh dưỡng và tiền túi của bạn càng phải chi nhiều cho tiền xăng xe bảo quản thay vì chất lượng thực phẩm.",
+    "applicationInAgents": "Trọng số chi phí phát thải trong thuật toán tối ưu hóa điều vận logistics của hệ thống quản trị cung ứng thông minh.",
+    "tags": [
+      "FoodMiles",
+      "Ecology",
+      "CarbonFootprint"
+    ]
+  },
+  {
+    "id": "lex-1788337035325-3-pj2w",
+    "term": "Tính Nhúng Xã Hội",
+    "enTerm": "Social Embeddedness",
+    "category": "Xã Hội Học & Thể Chế",
+    "sourceDiscipline": "Xã Hội Học Kinh Tế",
+    "philosophicalOrigin": "Phát triển bởi Karl Polanyi (1944) và hoàn thiện bởi Mark Granovetter (1985), cho rằng các giao dịch kinh tế không diễn ra trong chân không mà bị ràng buộc bởi các mạng lưới quan hệ xã hội.",
+    "csEquivalent": "Context-Aware Trust Graph",
+    "deepExplanation": "Mua mớ rau của một người quen trong xóm biết rõ nguồn gốc và uy tín của họ luôn yên tâm hơn mua của một người lạ ngoài chợ dù có dán mác bóng bẩy. Mối quan hệ thân tình, minh bạch đó chính là 'tính nhúng xã hội'.",
+    "applicationInAgents": "Mô hình hóa điểm tín nhiệm (Trust Score) giữa các nút trong mạng lưới dựa trên lịch sử tương tác và đánh giá cộng đồng phi tập trung.",
+    "tags": [
+      "Embeddedness",
+      "SocialCapital",
+      "Trust"
+    ]
+  },
+  {
+    "id": "lex-1788337035325-4-n96o",
+    "term": "Nông Nghiệp Vành Đai Đô Thị",
+    "enTerm": "Peri-Urban Agriculture",
+    "category": "Quy Hoạch Đô Thị Sinh Thái",
+    "sourceDiscipline": "Địa Lý Kinh Tế & Quy Hoạch Không Gian",
+    "philosophicalOrigin": "Học thuyết về vùng đệm sinh thái chuyển tiếp giữa nông thôn và thành thị, đóng vai trò 'lá phổi xanh' và 'kho lương thực tươi' cho đại đô thị.",
+    "csEquivalent": "Edge Computing / Edge Node Capacity",
+    "deepExplanation": "Những cánh đồng, vườn rau xanh nằm ngay sát vách thành phố (bán kính 10-30km). Đây là hậu phương cung cấp rau củ quả tươi sống hằng ngày và là nơi tiếp nhận rác hữu cơ đã qua xử lý của thành phố để bón lại cho đất.",
+    "applicationInAgents": "Thiết kế các nút lưu trữ và cung cấp tài nguyên biên (Edge Hubs) nhằm giảm tải áp lực cung ứng cho trung tâm hệ thống.",
+    "tags": [
+      "PeriUrban",
+      "CircularBioeconomy",
+      "UrbanPlanning"
+    ]
+  },
+  {
+    "id": "lex-1788268279675-1-rsid4",
+    "term": "Kiến trúc Trải nghiệm (CX Architecture)",
+    "enTerm": "Customer Experience Architecture",
+    "category": "Liên Ngành Đột Phá",
+    "sourceDiscipline": "Thiết kế Trải nghiệm (CX)",
+    "philosophicalOrigin": "Kiến trúc học & Tâm lý học hành vi",
+    "csEquivalent": "Thiết kế hệ thống (System Design)",
+    "deepExplanation": "Là cách sắp xếp không gian, quy trình và tương tác sao cho khách hàng cảm thấy mọi thứ diễn ra tự nhiên, dễ dàng. Ví dụ: Bố trí quầy gia vị ngay cạnh bàn nướng để khách tự lấy thay vì phải gọi nhân viên.",
+    "applicationInAgents": "Sử dụng để thiết kế luồng tương tác của AI sao cho người dùng cảm thấy được hỗ trợ mà không bị làm phiền.",
+    "tags": [
+      "CX",
+      "Vận hành",
+      "Thiết kế"
+    ]
+  },
+  {
+    "id": "lex-1788268279675-2-p0hoa",
+    "term": "Lưu lượng tự nhiên",
+    "enTerm": "Organic Footfall",
+    "category": "Liên Ngành Đột Phá",
+    "sourceDiscipline": "Quản trị Vận hành",
+    "philosophicalOrigin": "Địa lý kinh tế",
+    "csEquivalent": "Traffic Analysis",
+    "deepExplanation": "Số lượng người đi ngang qua cửa hàng một cách tự nhiên mà không cần quảng cáo. Ví dụ: Một quán ăn nằm ở ngã ba đường đông đúc có lưu lượng tự nhiên cao hơn quán nằm trong ngõ cụt.",
+    "applicationInAgents": "Phân tích dữ liệu người dùng truy cập vào hệ thống để tối ưu hóa vị trí hiển thị các tính năng quan trọng.",
+    "tags": [
+      "Mặt bằng",
+      "Kinh tế",
+      "Marketing"
+    ]
+  },
+  {
+    "id": "lex-1788268238118-1-wa7lt",
+    "term": "Hệ điều hành vật lý",
+    "enTerm": "Physical Operating System",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "Kiến trúc hệ thống",
+    "philosophicalOrigin": "Tư duy hệ thống (Systems Thinking)",
+    "csEquivalent": "Kernel / OS",
+    "deepExplanation": "Giống như máy tính cần hệ điều hành để chạy phần mềm, nhà hàng cần mặt bằng được sắp xếp khoa học để nhân viên và khách hàng 'chạy' trơn tru. Nếu mặt bằng bố trí sai, mọi quy trình phục vụ đều bị lỗi.",
+    "applicationInAgents": "Sử dụng để tối ưu hóa luồng di chuyển của nhân viên và khách hàng trong không gian thực tế, giảm thiểu lãng phí thời gian.",
+    "tags": [
+      "Vận hành",
+      "Kiến trúc"
+    ]
+  },
+  {
+    "id": "lex-1788268238118-2-t428q",
+    "term": "Chi phí đầu tư ban đầu",
+    "enTerm": "CAPEX (Capital Expenditure)",
+    "category": "Kinh tế",
+    "sourceDiscipline": "Tài chính doanh nghiệp",
+    "philosophicalOrigin": "Kinh tế học quản trị",
+    "csEquivalent": "Fixed Asset Investment",
+    "deepExplanation": "Số tiền bạn bỏ ra một lần để mua sắm bàn ghế, sửa chữa mặt bằng, lắp đặt hệ thống. Càng tối ưu được khoản này, nhà hàng càng nhanh thu hồi vốn.",
+    "applicationInAgents": "Dùng để đánh giá tính khả thi của dự án thông qua việc so sánh giữa chi phí đầu tư và khả năng sinh lời dự kiến.",
+    "tags": [
+      "Tài chính",
+      "Khởi nghiệp"
+    ]
+  },
+  {
+    "id": "lex-1788268583044-1-um3vt",
+    "term": "Doanh thu trên mỗi mét vuông",
+    "enTerm": "Revenue Per Square Foot",
+    "category": "Quản trị Tài chính",
+    "sourceDiscipline": "Kinh tế học",
+    "philosophicalOrigin": "Tối ưu hóa nguồn lực hữu hạn",
+    "csEquivalent": "Throughput per unit of resource",
+    "deepExplanation": "Giống như việc bạn có một cái tủ lạnh, thay vì để đồ lộn xộn, bạn sắp xếp sao cho mỗi ngăn đều chứa được nhiều thực phẩm nhất mà vẫn dễ lấy. Trong nhà hàng, đây là cách tính xem mỗi mét vuông sàn đang 'kiếm' được bao nhiêu tiền cho bạn.",
+    "applicationInAgents": "Dùng để đánh giá hiệu quả của các khu vực trong nhà hàng, từ đó AI có thể gợi ý sắp xếp lại bàn ghế hoặc thay đổi thực đơn để tối đa hóa lợi nhuận.",
+    "tags": [
+      "Tài chính",
+      "Vận hành"
+    ]
+  },
+  {
+    "id": "lex-1788268583044-2-j9st6",
+    "term": "Just-In-Time (JIT)",
+    "enTerm": "Just-In-Time",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "Sản xuất tinh gọn (Lean Manufacturing)",
+    "philosophicalOrigin": "Triết lý loại bỏ lãng phí",
+    "csEquivalent": "On-demand resource allocation",
+    "deepExplanation": "Là cách làm 'đúng lúc, đúng chỗ'. Thay vì mua cả tấn thịt về để kho đầy ắp, bạn chỉ nhập lượng vừa đủ dùng cho ngày hôm đó. Vừa tươi ngon, vừa không tốn diện tích kho bãi.",
+    "applicationInAgents": "Hệ thống quản lý kho tự động hóa, tự động đặt hàng khi nguyên liệu xuống dưới ngưỡng an toàn, giúp giảm chi phí lưu kho.",
+    "tags": [
+      "Lean",
+      "Vận hành"
+    ]
+  },
+  {
+    "id": "lex-1788268259952-1-5fhim",
+    "term": "ESG (Môi trường, Xã hội, Quản trị)",
+    "enTerm": "Environmental, Social, and Governance",
+    "category": "Liên Ngành Đột Phá",
+    "sourceDiscipline": "Quản trị Bền vững",
+    "philosophicalOrigin": "Trách nhiệm xã hội của doanh nghiệp",
+    "csEquivalent": "Hệ thống tối ưu hóa đa mục tiêu",
+    "deepExplanation": "Là bộ tiêu chuẩn để đánh giá một doanh nghiệp không chỉ dựa trên lợi nhuận mà còn dựa trên cách họ đối xử với môi trường, con người và cách họ quản lý công việc. Ví dụ: Nhà hàng dùng ống hút giấy thay nhựa (E), trả lương công bằng cho nhân viên (S), và có quy trình sổ sách minh bạch (G).",
+    "applicationInAgents": "Dùng để thiết lập các ràng buộc (constraints) trong thuật toán ra quyết định của AI nhằm đảm bảo kết quả đầu ra luôn hướng tới sự phát triển dài hạn thay vì lợi ích ngắn hạn.",
+    "tags": [
+      "ESG",
+      "Bền vững",
+      "Quản trị"
+    ]
+  },
+  {
+    "id": "lex-1788268294253-1-3wb1v",
+    "term": "Thiết kế Module",
+    "enTerm": "Modular Design",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "Kiến trúc & Kỹ thuật",
+    "philosophicalOrigin": "Chủ nghĩa Công năng (Functionalism)",
+    "csEquivalent": "Component-based Architecture",
+    "deepExplanation": "Là cách thiết kế các bộ phận rời rạc có thể ghép lại hoặc thay đổi tùy ý. Ví dụ: Bàn ăn có thể ghép lại thành bàn dài cho nhóm 10 người hoặc tách ra cho 2 người, giúp nhà hàng linh hoạt đón khách.",
+    "applicationInAgents": "Tối ưu hóa không gian vật lý để tăng doanh thu trên mỗi mét vuông (Revenue per square foot).",
+    "tags": [
+      "Vận hành",
+      "Tối ưu hóa"
+    ]
+  },
+  {
+    "id": "lex-1788268294253-2-9ugrw",
+    "term": "Kinh tế tuần hoàn",
+    "enTerm": "Circular Economy",
+    "category": "Kinh tế Bền vững (ESG)",
+    "sourceDiscipline": "Kinh tế học",
+    "philosophicalOrigin": "Sinh thái học công nghiệp",
+    "csEquivalent": "Resource Recycling Logic",
+    "deepExplanation": "Cách làm kinh doanh mà ở đó vật liệu được sử dụng lâu dài, ít thải ra môi trường. Ví dụ: Dùng gỗ tái chế làm bàn ghế, vừa tiết kiệm chi phí, vừa tạo phong cách riêng.",
+    "applicationInAgents": "Giảm chi phí đầu tư dài hạn (CAPEX) và xây dựng hình ảnh thương hiệu có trách nhiệm.",
+    "tags": [
+      "ESG",
+      "Bền vững"
+    ]
+  },
+  {
+    "id": "lex-1788268306706-1-yuhia",
+    "term": "Nhà tiền chế",
+    "enTerm": "Pre-engineered building",
+    "category": "Kiến trúc Tối giản",
+    "sourceDiscipline": "Xây dựng công nghiệp",
+    "philosophicalOrigin": "Chủ nghĩa công năng (Functionalism)",
+    "csEquivalent": "Modular Architecture (Kiến trúc mô-đun)",
+    "deepExplanation": "Giống như việc lắp ráp đồ chơi Lego, nhà tiền chế là các bộ phận được làm sẵn ở nhà máy rồi mang đến công trường lắp lại với nhau. Nó giúp xây nhà cực nhanh và rẻ.",
+    "applicationInAgents": "Ứng dụng trong việc thiết kế các hệ thống quản trị có thể mở rộng (scalable) và dễ dàng thay đổi cấu trúc khi nhu cầu kinh doanh thay đổi.",
+    "tags": [
+      "Xây dựng",
+      "Tối ưu chi phí"
+    ]
+  },
+  {
+    "id": "lex-1788268306706-2-ooc5p",
+    "term": "Dấu chân Carbon",
+    "enTerm": "Carbon Footprint",
+    "category": "Kinh tế Bền vững (ESG)",
+    "sourceDiscipline": "Môi trường học",
+    "philosophicalOrigin": "Trách nhiệm sinh thái",
+    "csEquivalent": "Resource Consumption Metrics",
+    "deepExplanation": "Là tổng lượng khí thải gây hại mà một hoạt động (như xây nhà hàng) tạo ra. Ví dụ: dùng vật liệu địa phương thì dấu chân carbon nhỏ hơn vì không tốn xăng dầu vận chuyển xa.",
+    "applicationInAgents": "Đo lường hiệu suất của hệ thống AI dựa trên năng lượng tiêu thụ để tối ưu hóa thuật toán xanh.",
+    "tags": [
+      "ESG",
+      "Bền vững"
+    ]
+  },
+  {
+    "id": "lex-1788268317122-1-yg1si",
+    "term": "Hút khói tại nguồn",
+    "enTerm": "Source Capture Ventilation",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "Kỹ thuật Môi trường",
+    "philosophicalOrigin": "Nguyên lý tối ưu hóa hệ thống",
+    "csEquivalent": "Local processing (Xử lý cục bộ)",
+    "deepExplanation": "Thay vì đợi khói bay khắp phòng rồi mới lọc, ta hút ngay tại chỗ nó sinh ra (trên mặt bếp). Giống như việc bạn dùng khăn lau ngay vết đổ thay vì đợi nó thấm ra cả sàn nhà.",
+    "applicationInAgents": "Áp dụng trong AI để xử lý dữ liệu nhiễu ngay tại đầu vào (input filtering) thay vì xử lý ở tầng sâu của mô hình.",
+    "tags": [
+      "Vận hành",
+      "Kỹ thuật",
+      "Tinh gọn"
+    ]
+  },
+  {
+    "id": "lex-1788268329019-1-9ksik",
+    "term": "Hệ thống vận hành tĩnh",
+    "enTerm": "Static Operational System",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "Kỹ thuật hệ thống",
+    "philosophicalOrigin": "Lý thuyết hệ thống",
+    "csEquivalent": "Cấu trúc dữ liệu tĩnh",
+    "deepExplanation": "Giống như việc sắp xếp đồ đạc trong nhà sao cho bạn không bao giờ vấp ngã khi đi trong bóng tối. Trong nhà hàng, đó là cách bố trí bàn ghế, lối đi cố định để mọi hoạt động diễn ra trơn tru mà không cần suy nghĩ.",
+    "applicationInAgents": "Dùng để thiết kế các quy trình tự động hóa trong AI, nơi các bước thực hiện được tối ưu hóa để không bao giờ xảy ra xung đột dữ liệu.",
+    "tags": [
+      "Vận hành",
+      "Tối ưu hóa"
+    ]
+  },
+  {
+    "id": "lex-1788268329019-2-50cp8",
+    "term": "Trạm tiếp tế",
+    "enTerm": "Service Station",
+    "category": "Quản trị Trải nghiệm",
+    "sourceDiscipline": "Dịch vụ khách hàng",
+    "philosophicalOrigin": "Quản trị tinh gọn (Lean Management)",
+    "csEquivalent": "Bộ nhớ đệm (Cache)",
+    "deepExplanation": "Là các điểm nhỏ đặt rải rác trong nhà hàng chứa sẵn khăn giấy, gia vị, menu. Thay vì chạy về bếp (trung tâm), nhân viên lấy đồ tại đây, giúp tiết kiệm thời gian và sức lực.",
+    "applicationInAgents": "Tương đương với việc lưu trữ dữ liệu thường dùng gần với bộ xử lý để tăng tốc độ phản hồi của hệ thống AI.",
+    "tags": [
+      "Lean",
+      "Hiệu suất"
+    ]
+  },
+  {
+    "id": "lex-1788268341911-1-ja14w",
+    "term": "Điểm chạm",
+    "enTerm": "Touchpoint",
+    "category": "Thiết kế Trải nghiệm Khách hàng",
+    "sourceDiscipline": "Quản trị Vận hành",
+    "philosophicalOrigin": "Lý thuyết hệ thống",
+    "csEquivalent": "Interface/API endpoint",
+    "deepExplanation": "Là bất kỳ khoảnh khắc nào khách hàng tiếp xúc với nhà hàng, từ lúc nhìn thấy biển hiệu, bước vào cửa, cho đến khi thanh toán. Ví dụ: Nụ cười của nhân viên là một điểm chạm, độ sạch của bàn ăn là một điểm chạm.",
+    "applicationInAgents": "Trong AI, đây là các điểm tương tác giữa người dùng và hệ thống (như câu lệnh, giao diện). Cần tối ưu hóa để mỗi điểm chạm đều mang lại giá trị tức thì.",
+    "tags": [
+      "CX",
+      "Vận hành"
+    ]
+  },
+  {
+    "id": "lex-1788268353681-1-4009h",
+    "term": "Đồng sáng tạo",
+    "enTerm": "Co-creation",
+    "category": "Thiết kế Trải nghiệm Khách hàng",
+    "sourceDiscipline": "Quản trị Marketing",
+    "philosophicalOrigin": "Lý thuyết giá trị dịch vụ",
+    "csEquivalent": "User-Generated Content (UGC) trong hệ thống",
+    "deepExplanation": "Là việc khách hàng không chỉ ngồi chờ phục vụ mà cùng tham gia vào quá trình tạo ra sản phẩm cuối cùng. Giống như việc bạn tự chọn topping cho trà sữa hay tự pha nước chấm, bạn cảm thấy ngon hơn vì có 'công sức' của mình trong đó.",
+    "applicationInAgents": "Trong AI, đây là việc hệ thống cho phép người dùng tinh chỉnh tham số (prompt engineering) để tạo ra kết quả cá nhân hóa thay vì chỉ nhận kết quả mặc định.",
+    "tags": [
+      "CX",
+      "Trải nghiệm",
+      "Cá nhân hóa"
+    ]
+  },
+  {
+    "id": "lex-1788268371877-1-gv9r1",
+    "term": "Phục vụ vô hình",
+    "enTerm": "Invisible Service",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "Thiết kế Trải nghiệm Khách hàng",
+    "philosophicalOrigin": "Triết học Tối giản (Minimalism)",
+    "csEquivalent": "Hệ thống tự động hóa ẩn (Background Automation)",
+    "deepExplanation": "Là cách phục vụ mà khách hàng cảm thấy mọi thứ đều được chuẩn bị sẵn sàng, trôi chảy mà không thấy nhân viên chạy đôn chạy đáo hay làm phiền. Ví dụ: Ly nước luôn đầy trước khi khách kịp nhận ra nó đã cạn.",
+    "applicationInAgents": "Áp dụng trong thiết kế AI: Hệ thống tự động xử lý các tác vụ nền mà không cần người dùng ra lệnh liên tục, tạo cảm giác mượt mà.",
+    "tags": [
+      "CX",
+      "Tối giản",
+      "Vận hành"
+    ]
+  },
+  {
+    "id": "lex-1788268384612-1-angji",
+    "term": "Điểm chạm cuối",
+    "enTerm": "Last Touchpoint",
+    "category": "Thiết kế Trải nghiệm Khách hàng",
+    "sourceDiscipline": "CX Design",
+    "philosophicalOrigin": "Lý thuyết về hành trình khách hàng",
+    "csEquivalent": "Final Output/Delivery Phase",
+    "deepExplanation": "Là khoảnh khắc cuối cùng khách hàng tương tác với thương hiệu trước khi kết thúc một chu kỳ mua hàng. Ví dụ: Việc nhận được túi đồ ăn gọn gàng, sạch sẽ chính là điểm chạm cuối quyết định họ có quay lại hay không.",
+    "applicationInAgents": "Trong hệ thống AI, đây là bước phản hồi cuối cùng hoặc thông báo hoàn tất tác vụ, cần sự chính xác và thái độ phục vụ cao nhất.",
+    "tags": [
+      "CX",
+      "Vận hành"
+    ]
+  },
+  {
+    "id": "lex-1788268405886-1-22d9m",
+    "term": "Tối ưu hóa Chuỗi cung ứng tại chỗ",
+    "enTerm": "Local Sourcing Optimization",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "Kinh tế học",
+    "philosophicalOrigin": "Chủ nghĩa địa phương (Localism)",
+    "csEquivalent": "Distributed Resource Allocation",
+    "deepExplanation": "Thay vì mua hàng ở chợ đầu mối xa xôi, mình mua trực tiếp từ người dân ngay gần nhà hàng. Giống như việc bạn hái rau sau vườn để nấu canh thay vì đi siêu thị, vừa tươi vừa rẻ lại biết rõ nguồn gốc.",
+    "applicationInAgents": "Sử dụng thuật toán để dự báo nhu cầu và tự động kết nối với các nhà cung cấp địa phương dựa trên dữ liệu thời gian thực.",
+    "tags": [
+      "Vận hành",
+      "ESG",
+      "Chi phí"
+    ]
+  },
+  {
+    "id": "lex-1788268419437-1-8sbvf",
+    "term": "Làm sạch vòm miệng",
+    "enTerm": "Palate Cleanser",
+    "category": "Trải nghiệm Khách hàng",
+    "sourceDiscipline": "Ẩm thực học",
+    "philosophicalOrigin": "Nghệ thuật thưởng thức",
+    "csEquivalent": "Reset hệ thống / Xóa bộ nhớ đệm",
+    "deepExplanation": "Giống như việc bạn uống một ngụm nước lọc giữa các món ăn để quên đi vị của món cũ, giúp lưỡi cảm nhận món mới một cách trọn vẹn nhất.",
+    "applicationInAgents": "Trong quản trị, đây là các khoảng nghỉ hoặc quy trình 'reset' giúp nhân viên hoặc hệ thống thoát khỏi trạng thái cũ để tiếp nhận dữ liệu/nhiệm vụ mới hiệu quả hơn.",
+    "tags": [
+      "CX",
+      "Vận hành"
+    ]
+  },
+  {
+    "id": "lex-1788268419437-2-b6jbs",
+    "term": "Nghịch lý của sự lựa chọn",
+    "enTerm": "Paradox of Choice",
+    "category": "Tâm lý học hành vi",
+    "sourceDiscipline": "Kinh tế học hành vi",
+    "philosophicalOrigin": "Barry Schwartz",
+    "csEquivalent": "Quá tải đầu vào (Input Overload)",
+    "deepExplanation": "Khi có quá nhiều lựa chọn, con người thường cảm thấy bối rối, lo âu và cuối cùng là không chọn gì cả hoặc không hài lòng với lựa chọn của mình.",
+    "applicationInAgents": "Thiết kế menu hoặc giao diện AI cần giới hạn số lượng lựa chọn để tăng tỷ lệ chuyển đổi (conversion rate).",
+    "tags": [
+      "Quản trị",
+      "Tâm lý"
+    ]
+  },
+  {
+    "id": "lex-1788268434225-1-mzmsq",
+    "term": "Bán hàng có trách nhiệm",
+    "enTerm": "Responsible Serving",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "Dịch vụ khách hàng",
+    "philosophicalOrigin": "Đạo đức kinh doanh",
+    "csEquivalent": "Validation & Error Handling",
+    "deepExplanation": "Là việc bán hàng nhưng biết điểm dừng. Giống như việc bạn bán một chiếc xe hơi, bạn phải đảm bảo người mua biết cách lái an toàn thay vì chỉ quan tâm đến việc thu tiền.",
+    "applicationInAgents": "Thiết lập các ngưỡng (thresholds) trong hệ thống AI để tự động cảnh báo hoặc dừng các hành vi vượt quá giới hạn an toàn.",
+    "tags": [
+      "ESG",
+      "Vận hành",
+      "Đạo đức"
+    ]
+  },
+  {
+    "id": "lex-1788268446183-1-vxmiz",
+    "term": "Ma trận Hương vị Tinh gọn",
+    "enTerm": "Lean Flavor Matrix",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "Kinh tế học & Ẩm thực",
+    "philosophicalOrigin": "Tư duy Tinh gọn (Lean Thinking)",
+    "csEquivalent": "Cấu trúc dữ liệu tối ưu hóa (Optimized Data Structure)",
+    "deepExplanation": "Là cách sắp xếp nguyên liệu sao cho một loại nguyên liệu có thể dùng cho nhiều món khác nhau. Giống như việc bạn có một bộ đồ chơi xếp hình, thay vì mua 10 bộ khác nhau, bạn dùng các mảnh ghép đó để tạo ra 10 mô hình khác nhau.",
+    "applicationInAgents": "Dùng để tối ưu hóa danh mục sản phẩm trong AI, giảm thiểu dư thừa dữ liệu và tăng hiệu suất xử lý.",
+    "tags": [
+      "Lean",
+      "Vận hành",
+      "Tối ưu hóa"
+    ]
+  },
+  {
+    "id": "lex-1788268459215-1-ecwpn",
+    "term": "Điểm chạm (Touchpoint)",
+    "enTerm": "Touchpoint",
+    "category": "Thiết kế Trải nghiệm Khách hàng (CX)",
+    "sourceDiscipline": "Quản trị Trải nghiệm",
+    "philosophicalOrigin": "Marketing hiện đại",
+    "csEquivalent": "Điểm tương tác hệ thống (System Interface Point)",
+    "deepExplanation": "Là bất kỳ khoảnh khắc nào khách hàng tiếp xúc với nhà hàng của bạn, từ lúc nhìn thấy biển hiệu, bước vào cửa, cho đến khi thanh toán. Ví dụ: Cách nhân viên chào bạn là một điểm chạm, độ nóng của đĩa thức ăn là một điểm chạm.",
+    "applicationInAgents": "Trong AI, đây là các điểm dữ liệu đầu vào hoặc phản hồi mà hệ thống tương tác với người dùng để tối ưu hóa hành vi.",
+    "tags": [
+      "CX",
+      "Vận hành"
+    ]
+  },
+  {
+    "id": "lex-1788268459215-2-to2id",
+    "term": "Tinh gọn (Lean)",
+    "enTerm": "Lean",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "Kỹ thuật Công nghiệp",
+    "philosophicalOrigin": "Hệ thống sản xuất Toyota (TPS)",
+    "csEquivalent": "Tối ưu hóa tài nguyên (Resource Optimization)",
+    "deepExplanation": "Là cách làm việc thông minh bằng cách loại bỏ những thứ không tạo ra giá trị cho khách hàng. Ví dụ: Nếu việc trang trí bàn ăn quá cầu kỳ khiến khách phải chờ lâu hơn, thì sự cầu kỳ đó là lãng phí, cần loại bỏ.",
+    "applicationInAgents": "Áp dụng để cắt giảm các bước xử lý dữ liệu thừa trong thuật toán, giúp hệ thống phản hồi nhanh hơn.",
+    "tags": [
+      "Vận hành",
+      "Tối ưu hóa"
+    ]
+  },
+  {
+    "id": "lex-1788268468596-1-vm2bs",
+    "term": "Đào tạo tinh gọn",
+    "enTerm": "Lean Training",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "Lean Management",
+    "philosophicalOrigin": "Triết lý Kaizen (Nhật Bản)",
+    "csEquivalent": "Tối ưu hóa tài nguyên hệ thống",
+    "deepExplanation": "Là cách dạy nhân viên chỉ những gì cần thiết nhất để làm việc hiệu quả, loại bỏ mọi bước thừa thãi. Ví dụ: Thay vì dạy nhân viên thuộc lòng 100 món, chỉ dạy họ cách nướng 5 món cốt lõi thật hoàn hảo.",
+    "applicationInAgents": "Áp dụng trong thiết kế AI để tập trung vào các tác vụ ưu tiên cao, giảm thiểu xử lý dữ liệu thừa.",
+    "tags": [
+      "Lean",
+      "Vận hành",
+      "Hiệu suất"
+    ]
+  },
+  {
+    "id": "lex-1788268468596-2-rt8c3",
+    "term": "Thấu cảm khách hàng",
+    "enTerm": "Customer Empathy",
+    "category": "Thiết kế Trải nghiệm (CX)",
+    "sourceDiscipline": "Design Thinking",
+    "philosophicalOrigin": "Hiện tượng học (Phenomenology)",
+    "csEquivalent": "Phân tích ngữ cảnh người dùng (User Context Analysis)",
+    "deepExplanation": "Khả năng đặt mình vào vị trí khách hàng để hiểu họ đang cần gì ngay cả khi họ chưa nói ra. Ví dụ: Thấy khách đang loay hoay với túi xách, nhân viên chủ động mang thêm ghế phụ mà không cần đợi khách yêu cầu.",
+    "applicationInAgents": "Dùng trong AI để dự đoán nhu cầu người dùng dựa trên lịch sử hành vi thay vì chỉ phản hồi các lệnh cứng nhắc.",
+    "tags": [
+      "CX",
+      "Trải nghiệm",
+      "Tử tế"
+    ]
+  },
+  {
+    "id": "lex-1788268480383-1-1a1ao",
+    "term": "Giá vốn hàng bán",
+    "enTerm": "Cost of Goods Sold (COGS)",
+    "category": "Kinh tế học",
+    "sourceDiscipline": "Kế toán quản trị",
+    "philosophicalOrigin": "Nguyên lý bảo toàn giá trị",
+    "csEquivalent": "Biến số đầu vào trong thuật toán lợi nhuận",
+    "deepExplanation": "Là tổng chi phí để tạo ra món ăn (tiền thịt, rau, gia vị). Ví dụ: Nếu bạn bán một phần thịt nướng giá 100k, mà tiền thịt và gia vị hết 40k, thì COGS là 40k. Hiểu đơn giản: Đây là chi phí 'gốc' để làm ra sản phẩm.",
+    "applicationInAgents": "Dùng để thiết lập ngưỡng cảnh báo tự động khi chi phí nguyên liệu vượt quá tỷ lệ cho phép trong hệ thống quản trị.",
+    "tags": [
+      "Tài chính",
+      "Vận hành"
+    ]
+  },
+  {
+    "id": "lex-1788268480383-2-2eqlt",
+    "term": "Tỷ lệ hao hụt",
+    "enTerm": "Yield Rate",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "Kỹ thuật chế biến",
+    "philosophicalOrigin": "Hiệu suất chuyển hóa",
+    "csEquivalent": "Tỷ lệ chuyển đổi dữ liệu (Data conversion rate)",
+    "deepExplanation": "Là phần nguyên liệu bị mất đi trong quá trình sơ chế (cắt bỏ mỡ, xương, vỏ). Ví dụ: Mua 1kg thịt, sau khi lọc bỏ xương còn 800g thịt nướng được. Tỷ lệ hao hụt là 20%.",
+    "applicationInAgents": "Dùng để tính toán chính xác lượng nguyên liệu cần nhập, tránh tồn kho dư thừa hoặc thiếu hụt.",
+    "tags": [
+      "Vận hành",
+      "Bếp"
+    ]
+  },
+  {
+    "id": "lex-1788268493019-1-z0p8j",
+    "term": "Thanh toán không ma sát",
+    "enTerm": "Frictionless Payment",
+    "category": "Trải nghiệm khách hàng (CX)",
+    "sourceDiscipline": "Quản trị Vận hành",
+    "philosophicalOrigin": "Tối giản hóa (Minimalism)",
+    "csEquivalent": "Tối ưu hóa luồng dữ liệu (Data Flow Optimization)",
+    "deepExplanation": "Là cách thanh toán mà khách hàng không phải chờ đợi, không phải loay hoay tìm tiền lẻ hay ký giấy tờ. Giống như việc bạn bước lên xe buýt và cửa tự mở, mọi thứ diễn ra trơn tru.",
+    "applicationInAgents": "Tự động hóa các tác vụ lặp lại trong hệ thống AI để giảm thiểu sự can thiệp của con người.",
+    "tags": [
+      "CX",
+      "Vận hành",
+      "Tối giản"
+    ]
+  },
+  {
+    "id": "lex-1788268503963-1-ii3et",
+    "term": "Vận hành Tinh gọn",
+    "enTerm": "Lean Operations",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "Kinh tế học / Quản trị",
+    "philosophicalOrigin": "Hệ thống sản xuất Toyota (TPS)",
+    "csEquivalent": "Tối ưu hóa tài nguyên hệ thống",
+    "deepExplanation": "Giống như việc dọn dẹp nhà cửa để chỉ giữ lại những món đồ thực sự cần thiết, giúp bạn di chuyển nhanh hơn và không bị vướng víu. Trong nhà hàng, đó là việc loại bỏ các bước thừa trong quy trình nấu nướng để món ăn ra lò nhanh nhất mà vẫn ngon.",
+    "applicationInAgents": "Sử dụng để thiết kế các luồng xử lý dữ liệu của AI sao cho ít tốn năng lượng và thời gian nhất.",
+    "tags": [
+      "Lean",
+      "Efficiency",
+      "Management"
+    ]
+  },
+  {
+    "id": "lex-1788268513506-1-lypot",
+    "term": "Quy trình một chiều",
+    "enTerm": "One-way Flow",
+    "category": "Quản trị Vận hành",
+    "sourceDiscipline": "An toàn thực phẩm",
+    "philosophicalOrigin": "Tối ưu hóa luồng công việc",
+    "csEquivalent": "Pipeline Processing",
+    "deepExplanation": "Là cách sắp xếp khu bếp sao cho thực phẩm đi theo một đường thẳng từ lúc nhập vào đến khi ra đĩa, không bao giờ quay ngược lại. Ví dụ: Thịt sống không bao giờ được đi ngang qua khu vực đã để thức ăn chín.",
+    "applicationInAgents": "Áp dụng trong thiết kế luồng dữ liệu của AI để tránh xung đột thông tin và đảm bảo tính toàn vẹn của dữ liệu đầu ra.",
+    "tags": [
+      "Vận hành",
+      "ATTP",
+      "Tối giản"
+    ]
+  },
+  {
+    "id": "lex-1788268529617-1-5nxt5",
+    "term": "Truyền thông dựa trên sự tử tế",
+    "enTerm": "Ethical Marketing",
+    "category": "Liên Ngành Đột Phá",
+    "sourceDiscipline": "Marketing bền vững",
+    "philosophicalOrigin": "Chủ nghĩa nhân văn trong kinh doanh",
+    "csEquivalent": "Hệ thống truyền thông minh bạch (Transparent Communication System)",
+    "deepExplanation": "Là cách làm quảng cáo không dùng chiêu trò, không nói quá. Ví dụ: Thay vì nói 'Ngon nhất thế giới', bạn kể về việc bạn đã chọn từng miếng thịt tươi ngon từ trang trại nào và tại sao nó tốt cho sức khỏe khách hàng.",
+    "applicationInAgents": "Sử dụng AI để phân tích dữ liệu khách hàng nhằm cá nhân hóa thông điệp dựa trên giá trị thực, tránh spam và tạo sự tin tưởng dài hạn.",
+    "tags": [
+      "Marketing",
+      "ESG",
+      "CX"
+    ]
+  },
+  {
+    "id": "lex-1788268551273-1-et3jy",
+    "term": "Điểm hòa vốn",
+    "enTerm": "Break-even Point",
+    "category": "Liên Ngành Đột Phá",
+    "sourceDiscipline": "Kinh tế học",
+    "philosophicalOrigin": "Cân bằng động",
+    "csEquivalent": "Trạng thái cân bằng hệ thống",
+    "deepExplanation": "Là thời điểm mà tổng số tiền bạn kiếm được vừa đủ để trả hết các chi phí đã bỏ ra. Ví dụ: Nếu bạn bán 100 phần nướng, thu đủ tiền thuê nhà, tiền thịt, tiền điện, thì từ phần thứ 101 trở đi, bạn mới bắt đầu có lãi thực sự.",
+    "applicationInAgents": "Dùng để thiết lập ngưỡng cảnh báo tự động cho hệ thống quản trị, khi doanh thu chạm ngưỡng này, hệ thống sẽ tự động kích hoạt các kịch bản tối ưu hóa chi phí.",
+    "tags": [
+      "Tài chính",
+      "Vận hành"
+    ]
+  }
+]

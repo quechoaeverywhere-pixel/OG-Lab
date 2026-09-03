@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex-wuwei",
+    "term": "Vô vi (Wu Wei) / 無爲",
+    "enTerm": "Stateless Decoupling & Reactive Execution",
+    "category": "Triết học Đông phương",
+    "philosophicalOrigin": "Đạo Đức Kinh - Lão Tử (Chương 37, 48)",
+    "csEquivalent": "Stateless Microservices, Pure Functions, Zero-Shared State, Serverless Cloud Functions",
+    "deepExplanation": "Hành động không can thiệp chủ quan, không níu giữ trạng thái quá khứ, thuận theo quy luật khách quan của hệ thống để đạt hiệu quả tối thượng.",
+    "applicationInAgents": "Thiết kế Agent Tool-Calling theo từng chu kỳ suy luận độc lập, không để rác ngữ cảnh (Context Pollution) làm suy giảm độ chính xác.",
+    "tags": [
+      "Lão Tử",
+      "Stateless",
+      "Architecture"
+    ]
+  },
+  {
+    "id": "lex-quidao",
+    "term": "Quỷ đạo (Gui Dao) & Binh bất yểm trá / 兵不厭詐",
+    "enTerm": "Byzantine Fault Tolerance & Zero Trust Architecture",
+    "category": "An ninh & Độ tin cậy",
+    "philosophicalOrigin": "Binh Pháp Tôn Tử - Thiên Kế & Thiên Dụng Gián",
+    "csEquivalent": "Byzantine Fault Tolerance (BFT), Zero Trust (ZTA), Cryptographic Nonces, Adversarial Red-Teaming",
+    "deepExplanation": "Giả định môi trường luôn tiềm ẩn các tác nhân thù địch hoặc thông tin sai lệch; không tin tưởng mù quáng bất kỳ kênh truyền thông nào.",
+    "applicationInAgents": "Áp dụng cơ chế đồng thuận đa Agent (Multi-Agent Consensus) và phát hiện Prompt Injection trước khi cấp quyền thực thi công cụ nguy hiểm.",
+    "tags": [
+      "Tôn Tử",
+      "BFT",
+      "Security"
+    ]
+  },
+  {
+    "id": "lex-amduong",
+    "term": "Âm Dương Biến Dịch / 陰陽易理",
+    "enTerm": "CAP Theorem & Dynamic System Equilibrium (PACELC)",
+    "category": "Triết học Đông phương",
+    "philosophicalOrigin": "Kinh Dịch (I Ching) - Hệ Từ Thượng",
+    "csEquivalent": "CAP Theorem, PACELC, Eventual Consistency, CRDTs, Write vs Read Optimizations",
+    "deepExplanation": "Sự tương tác chuyển hóa giữa hai cực đối lập (Âm - Tĩnh, bảo toàn / Dương - Động, sẵn sàng); không có hệ thống hoàn hảo tuyệt đối mọi chiều kích trong không gian vật lý.",
+    "applicationInAgents": "Cân bằng giữa tốc độ phản hồi tức thì (Low Latency Flash Inference) và độ sâu lập luận suy tưởng (High Reasoning Thinking Tokens).",
+    "tags": [
+      "Kinh Dịch",
+      "CAP",
+      "Distributed Systems"
+    ]
+  },
+  {
+    "id": "lex-dichotomy",
+    "term": "Phân đôi Quyền kiểm soát (Dichotomy of Control)",
+    "enTerm": "Circuit Breaker & Graceful Degradation Pattern",
+    "category": "Triết học Tây phương",
+    "philosophicalOrigin": "Chủ nghĩa Khắc kỷ (Stoicism) - Epictetus & Marcus Aurelius",
+    "csEquivalent": "Circuit Breakers, Supervision Trees (Erlang/OTP), Health Probes, Fail-Safe Fallbacks, SRE Antifragility",
+    "deepExplanation": "Tập trung tuyệt đối vào những gì trong tầm kiểm soát nội tại của hệ thống (Catch error, trả fallback, phục hồi); chấp nhận sự bất ổn của ngoại cảnh (Mạng đứt, dịch vụ ngoài sập).",
+    "applicationInAgents": "Khi LLM API hoặc Google Search gặp lỗi, Agent tự động kích hoạt fallback local cache hoặc điều chỉnh độ tự tin mà không bị sụp đổ toàn bộ pipeline.",
+    "tags": [
+      "Stoicism",
+      "Resilience",
+      "SRE"
+    ]
+  },
+  {
+    "id": "lex-the-dung",
+    "term": "Thể Dụng Nhất Nguyên / 體用一源",
+    "enTerm": "CQRS & Event Sourcing (Command-Query Segregation)",
+    "category": "Kiến trúc Hệ thống",
+    "philosophicalOrigin": "Tống Nho - Chu Hy, Vương Dương Minh",
+    "csEquivalent": "Command Query Responsibility Segregation (CQRS), Event Sourcing, Append-Only Immutable Logs, Kafka",
+    "deepExplanation": "Thể là bản thể lịch sử bất biến (Event Log); Dụng là các tướng trạng biểu hiện linh hoạt phục vụ nhu cầu đọc (Read Projections). Cả hai đồng quy trong một hệ thống nhất thể.",
+    "applicationInAgents": "Lưu toàn bộ lịch sử tư duy (Chain of Thought & Tool Interactions) vào Immutable Audit Log để tái hiện hoặc huấn luyện lại (RLHF/DPO).",
+    "tags": [
+      "CQRS",
+      "Event Sourcing",
+      "Philosophy"
+    ]
+  },
+  {
+    "id": "lex-thienlai",
+    "term": "Thiên lại & Vạn vật tề nhất / 天籟齊物",
+    "enTerm": "Decentralized Multi-Agent Swarm Intelligence & Emergence",
+    "category": "Agentic AI",
+    "philosophicalOrigin": "Nam Hoa Kinh - Trang Tử (Tề Vật Luận)",
+    "csEquivalent": "Swarm Intelligence, Autonomous Multi-Agent Orchestration, Semantic Routing, Emergent Behavior",
+    "deepExplanation": "Âm thanh hài hòa của trời đất không cần một người chỉ huy cưỡng bức; các cá thể nhỏ phối hợp theo quy luật tự nhiên nảy sinh trí tuệ vĩ mô vượt trội.",
+    "applicationInAgents": "Mô hình phân rã nhiệm vụ phức tạp cho bầy Agents chuyên biệt (Sub-agents for Search, Code, Verification, Drafting).",
+    "tags": [
+      "Trang Tử",
+      "Multi-Agent",
+      "Emergence"
+    ]
+  }
+]

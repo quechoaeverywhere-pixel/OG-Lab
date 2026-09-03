@@ -1,0 +1,1153 @@
+{
+  "disciplineGroups": [
+    {
+      "id": "epistemology_philosophy",
+      "name": "Nhận Thức Luận, Triết Học & Lịch Sử",
+      "enName": "Epistemology, Philosophy & History of Thought",
+      "icon": "Scroll",
+      "color": "text-amber-400",
+      "border": "border-amber-500/30",
+      "badgeBg": "bg-amber-500/10 text-amber-300 border-amber-500/20",
+      "description": "Bản thể luận, triết học phương Đông - phương Tây, lịch sử tư tưởng, đạo đức học và ký hiệu học cấu trúc."
+    },
+    {
+      "id": "institutions_economics",
+      "name": "Thể Chế, Kinh Tế & Động Lực Xã Hội",
+      "enName": "Institutions, Economics & Social Dynamics",
+      "icon": "Landmark",
+      "color": "text-emerald-400",
+      "border": "border-emerald-500/30",
+      "badgeBg": "bg-emerald-500/10 text-emerald-300 border-emerald-500/20",
+      "description": "Cơ chế quản trị công, lý thuyết trò chơi, kinh tế thể chế, nhân chủng học và cấu trúc mạng lưới xã hội."
+    },
+    {
+      "id": "cognition_behavior",
+      "name": "Nhận Thức, Tâm Lý & Não Bộ Tính Toán",
+      "enName": "Cognition, Psychology & Brain Sciences",
+      "icon": "Brain",
+      "color": "text-purple-400",
+      "border": "border-purple-500/30",
+      "badgeBg": "bg-purple-500/10 text-purple-300 border-purple-500/20",
+      "description": "Tâm lý học nhận thức, thần kinh học tính toán, khoa học hành vi, tiến hóa và trí tuệ tập thể."
+    },
+    {
+      "id": "math_physics_systems",
+      "name": "Toán-Lý, Năng Lượng & Hệ Thống Phức Tạp",
+      "enName": "Mathematics, Physics, Energy & Complex Systems",
+      "icon": "Network",
+      "color": "text-cyan-400",
+      "border": "border-cyan-500/30",
+      "badgeBg": "bg-cyan-500/10 text-cyan-300 border-cyan-500/20",
+      "description": "Nhiệt động lực học, lý thuyết thông tin, hệ thống thích ứng phức tạp, điều khiển học và thuyết hỗn loạn."
+    },
+    {
+      "id": "cs_ai_data",
+      "name": "Khoa Học Máy Tính, Dữ Liệu & AI Tự Trị",
+      "enName": "Computer Science, Data & Autonomous AI",
+      "icon": "Cpu",
+      "color": "text-blue-400",
+      "border": "border-blue-500/30",
+      "badgeBg": "bg-blue-500/10 text-blue-300 border-blue-500/20",
+      "description": "Hệ thống phân tán, bầy đàn tác tử Multi-Agent, mật mã học, LLM Reasoning và an toàn căn chỉnh AI."
+    },
+    {
+      "id": "emerging_frontier",
+      "name": "Lĩnh Vực Đột Phá & Mới Nổi",
+      "enName": "Emerging & Frontier Interdisciplinary Lenses",
+      "icon": "Sparkles",
+      "color": "text-fuchsia-400",
+      "border": "border-fuchsia-500/30",
+      "badgeBg": "bg-fuchsia-500/10 text-fuchsia-300 border-fuchsia-500/20",
+      "description": "Các lăng kính nghiên cứu tùy biến, giao thoa liên ngành mới và sáng kiến học thuật đột phá do người dùng & AI kiến tạo."
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "history",
+      "groupId": "epistemology_philosophy",
+      "groupName": "Nhận Thức Luận, Triết Học & Lịch Sử",
+      "name": "Lịch Sử",
+      "enName": "History & Conceptual Evolution",
+      "icon": "History",
+      "color": "text-amber-400",
+      "bgLight": "bg-amber-100 text-amber-900",
+      "bgDark": "bg-amber-950/60 text-amber-300",
+      "description": "Tiến trình tiến hóa ý niệm, chu kỳ biến thiên văn minh, bài học lịch sử và cơ chế tích lũy tri thức nhân loại.",
+      "coreLenses": [
+        "Quy luật Thách thức & Đáp ứng (Toynbee)",
+        "Chu kỳ chuyển dịch công nghệ Kondratiev",
+        "Biện chứng lịch sử & Sự chuyển hóa hình thái",
+        "Lịch sử vi mô & Lược sử dài hạn (Annales)"
+      ],
+      "keyFigures": [
+        "Thucydides",
+        "Ibn Khaldun",
+        "Arnold Toynbee",
+        "Fernand Braudel",
+        "Yuval Noah Harari"
+      ],
+      "systemAnalogy": "Version Control (Git), Database Event Sourcing, Immutable Audit Log (Lưu vết lịch sử trạng thái).",
+      "methodology": "Phân tích thứ tự niên đại, so sánh chu kỳ lịch sử và trích xuất quy luật biến dịch cấu trúc."
+    },
+    {
+      "id": "culture_arts",
+      "groupId": "epistemology_philosophy",
+      "groupName": "Nhận Thức Luận, Triết Học & Lịch Sử",
+      "name": "Văn Hoá & Nghệ Thuật",
+      "enName": "Culture, Arts & Semiotics",
+      "icon": "Palette",
+      "color": "text-rose-400",
+      "bgLight": "bg-rose-100 text-rose-900",
+      "bgDark": "bg-rose-950/60 text-rose-300",
+      "description": "Ký hiệu học, diễn giải học văn hóa, mỹ học tối giản, biểu tượng nguyên mẫu và cảm quan trải nghiệm con người.",
+      "coreLenses": [
+        "Ký hiệu học (Semiotics) & Ngữ nghĩa biểu trưng",
+        "Mỹ học tối giản & Tỷ lệ vàng tự nhiên",
+        "Giải cấu trúc văn bản & Không gian thẩm mỹ",
+        "Diễn giải học văn hóa & Biểu đạt xã hội"
+      ],
+      "keyFigures": [
+        "Roland Barthes",
+        "Umberto Eco",
+        "Walter Benjamin",
+        "Leonardo da Vinci",
+        "Immanuel Kant"
+      ],
+      "systemAnalogy": "Giao diện Tương tác Người - Máy (HCI/UX), Design Systems, Ngữ nghĩa Schema.org và Tính biểu cảm mã nguồn.",
+      "methodology": "Giải mã ký hiệu biểu trưng, phân tích cấu trúc thẩm mỹ và chuẩn hóa giao diện tương tác trực quan."
+    },
+    {
+      "id": "ontology_epistemology",
+      "groupId": "epistemology_philosophy",
+      "groupName": "Nhận Thức Luận, Triết Học & Lịch Sử",
+      "name": "Bản Thể Luận & Nhận Thức Luận",
+      "enName": "Ontology & Epistemology",
+      "icon": "Compass",
+      "color": "text-yellow-400",
+      "bgLight": "bg-yellow-100 text-yellow-900",
+      "bgDark": "bg-yellow-950/60 text-yellow-300",
+      "description": "Khảo sát ý niệm nguyên thủy, bản chất của thực tại, giới hạn của tri thức và nguyên lý khởi nguyên (First Principles).",
+      "coreLenses": [
+        "Bản thể luận & Cấu trúc tồn tại của thế giới",
+        "Nhận thức luận & Giới hạn tri thức",
+        "Nguyên lý khởi nguyên (First Principles Thinking)",
+        "Hiện thực luận vs Duy tâm luận nhận thức"
+      ],
+      "keyFigures": [
+        "Plato",
+        "Aristotle",
+        "René Descartes",
+        "Immanuel Kant",
+        "Martin Heidegger"
+      ],
+      "systemAnalogy": "Type System, Core Schema Definitions, Domain-Driven Design (DDD) & Tiên đề kiến trúc.",
+      "methodology": "Tư duy nguyên lý khởi nguyên, phân tích bản chất logic và bóc tách các giả định ẩn."
+    },
+    {
+      "id": "ethics_stoicism",
+      "groupId": "epistemology_philosophy",
+      "groupName": "Nhận Thức Luận, Triết Học & Lịch Sử",
+      "name": "Đạo Đức Học & Khắc Kỷ",
+      "enName": "Ethics & Stoic Philosophy",
+      "icon": "ShieldCheck",
+      "color": "text-orange-400",
+      "bgLight": "bg-orange-100 text-orange-900",
+      "bgDark": "bg-orange-950/60 text-orange-300",
+      "description": "Trụ Shinbashira cân bằng tâm trí, triết lý Khắc kỷ (Stoicism), đạo đức học bổn phận, vị lợi và sự an định nội tại giữa nghịch cảnh.",
+      "coreLenses": [
+        "Triết lý Shinbashira: Cân bằng trung tâm giữa vạn biến",
+        "Chủ nghĩa Khắc kỷ: Kiểm soát điều trong tầm tay (Amor Fati)",
+        "Đạo đức học Bổn phận vs Vị lợi",
+        "Trách nhiệm hiện sinh & Bảo vệ phẩm giá con người"
+      ],
+      "keyFigures": [
+        "Marcus Aurelius",
+        "Seneca",
+        "Epictetus",
+        "John Stuart Mill",
+        "Emmanuel Levinas"
+      ],
+      "systemAnalogy": "Constitutional AI Guardrails, Graceful Degradation, Circuit Breakers & Hệ thống tự kiềm chế.",
+      "methodology": "Phân tích chuẩn mực đạo đức, thiết lập ranh giới an toàn và kiểm tra tính bền bỉ tâm lý."
+    },
+    {
+      "id": "linguistics_semiotics",
+      "groupId": "epistemology_philosophy",
+      "groupName": "Nhận Thức Luận, Triết Học & Lịch Sử",
+      "name": "Ngôn Ngữ Học & Ngữ Nghĩa",
+      "enName": "Structural Linguistics & Semantics",
+      "icon": "Languages",
+      "color": "text-amber-300",
+      "bgLight": "bg-amber-100 text-amber-900",
+      "bgDark": "bg-amber-950/60 text-amber-300",
+      "description": "Ngữ pháp tạo sinh, ký hiệu học cấu trúc, trò chơi ngôn ngữ Wittgenstein và sự hình thành ý nghĩa qua diễn ngôn.",
+      "coreLenses": [
+        "Phân biệt Ký hiệu - Vật biểu đạt (Signifier / Signified)",
+        "Ngữ pháp tạo sinh & Cấu trúc ngữ vi",
+        "Trò chơi ngôn ngữ (Wittgenstein's Language Games)",
+        "Ngữ nghĩa học hình thức & Không gian tiềm ẩn"
+      ],
+      "keyFigures": [
+        "Ferdinand de Saussure",
+        "Noam Chomsky",
+        "Roman Jakobson",
+        "Ludwig Wittgenstein"
+      ],
+      "systemAnalogy": "Tokenizer, Abstract Syntax Tree (AST), Semantic Embeddings & Latent Space Vectors.",
+      "methodology": "Bóc tách cú pháp, ánh xạ ngữ nghĩa và phân tích mạng lưới quan hệ từ vựng."
+    },
+    {
+      "id": "phenomenology_hermeneutics",
+      "groupId": "epistemology_philosophy",
+      "groupName": "Nhận Thức Luận, Triết Học & Lịch Sử",
+      "name": "Hiện Tượng Học & Diễn Giải",
+      "enName": "Phenomenology & Hermeneutics",
+      "icon": "Eye",
+      "color": "text-yellow-300",
+      "bgLight": "bg-yellow-100 text-yellow-900",
+      "bgDark": "bg-yellow-950/60 text-yellow-300",
+      "description": "Hiện tượng học nhận thức, phương pháp đóng ngoặc thực tại (Epoché), vòng tròn diễn giải và trải nghiệm chủ quan.",
+      "coreLenses": [
+        "Phương pháp Epoché (Đóng ngoặc định kiến phán xét)",
+        "Vòng tròn diễn giải (Hermeneutic Circle)",
+        "Ý hướng tính (Intentionality of Consciousness)",
+        "Hòa nhập chân trời hiểu biết (Horizon Merging)"
+      ],
+      "keyFigures": [
+        "Edmund Husserl",
+        "Maurice Merleau-Ponty",
+        "Hans-Georg Gadamer",
+        "Paul Ricoeur"
+      ],
+      "systemAnalogy": "System Observability, Dynamic Context Window Ingestion, Trace Telemetry & Raw Event Perception.",
+      "methodology": "Khảo sát hiện tượng thuần túy, lặp lại diễn giải đa chiều và hợp nhất bối cảnh đa nguồn."
+    },
+    {
+      "id": "logic_metaphysics",
+      "groupId": "epistemology_philosophy",
+      "groupName": "Nhận Thức Luận, Triết Học & Lịch Sử",
+      "name": "Logic Học & Siêu Hình Học",
+      "enName": "Formal Logic & Metaphysics",
+      "icon": "Binary",
+      "color": "text-amber-500",
+      "bgLight": "bg-amber-100 text-amber-900",
+      "bgDark": "bg-amber-950/60 text-amber-300",
+      "description": "Logic hình thức, logic mệnh đề - vị từ, định lý bất toàn Gödel, cấu trúc suy luận chặt chẽ và siêu hình học.",
+      "coreLenses": [
+        "Định lý bất toàn Gödel (Incompleteness Theorem)",
+        "Logic vị từ bậc nhất & Suy diễn hình thức",
+        "Lý thuyết mô hình & Ngữ nghĩa học chân lý Tarski",
+        "Tính nhất quán và phi mâu thuẫn hệ thống"
+      ],
+      "keyFigures": [
+        "Aristotle",
+        "Gottlob Frege",
+        "Bertrand Russell",
+        "Kurt Gödel",
+        "Alfred Tarski"
+      ],
+      "systemAnalogy": "Static Code Analysis, Formal Verification, SAT/SMT Solvers, Strict Type Checking.",
+      "methodology": "Chứng minh hình thức, phát hiện nghịch lý mâu thuẫn và xây dựng chuỗi suy luận tất định."
+    },
+    {
+      "id": "philosophy_of_science",
+      "groupId": "epistemology_philosophy",
+      "groupName": "Nhận Thức Luận, Triết Học & Lịch Sử",
+      "name": "Triết Học Khoa Học",
+      "enName": "Philosophy of Science & Critical Reason",
+      "icon": "Sparkle",
+      "color": "text-rose-300",
+      "bgLight": "bg-rose-100 text-rose-900",
+      "bgDark": "bg-rose-950/60 text-rose-300",
+      "description": "Tiêu chí khả bác Karl Popper, chuyển dịch hệ hình Thomas Kuhn, cấu trúc cách mạng khoa học và phương pháp luận phê phán.",
+      "coreLenses": [
+        "Tiêu chí khả bác (Falsifiability of Hypotheses)",
+        "Chuyển dịch hệ hình (Paradigm Shifts & Revolutions)",
+        "Chương trình nghiên cứu khoa học Lakatos",
+        "Chủ nghĩa duy lý phê phán (Critical Rationalism)"
+      ],
+      "keyFigures": [
+        "Karl Popper",
+        "Thomas Kuhn",
+        "Imre Lakatos",
+        "Paul Feyerabend"
+      ],
+      "systemAnalogy": "Unit/Integration Test Suites, Chaos Engineering, Continuous Refactoring & Benchmark Regressions.",
+      "methodology": "Thử nghiệm bác bỏ giả thuyết, phát hiện điểm gãy hệ hình và đối chứng thực nghiệm."
+    },
+    {
+      "id": "economics",
+      "groupId": "institutions_economics",
+      "groupName": "Thể Chế, Kinh Tế & Động Lực Xã Hội",
+      "name": "Kinh Tế Học",
+      "enName": "Economics & Mechanism Design",
+      "icon": "TrendingUp",
+      "color": "text-emerald-400",
+      "bgLight": "bg-emerald-100 text-emerald-900",
+      "bgDark": "bg-emerald-950/60 text-emerald-300",
+      "description": "Lý thuyết trò chơi, thiết kế cơ chế khích lệ (Incentive Alignment), phân bổ tài nguyên hữu hạn và kinh tế học Agentic.",
+      "coreLenses": [
+        "Cân bằng Nash trong Multi-Agent",
+        "Chi phí giao dịch Coase & Tokenomics",
+        "Đấu giá Vickrey & Lập lịch Task",
+        "Lỗ hổng Trùm chung (Tragedy of the Commons)"
+      ],
+      "keyFigures": [
+        "Adam Smith",
+        "John Nash",
+        "Ronald Coase",
+        "Elinor Ostrom",
+        "Kenneth Arrow"
+      ],
+      "systemAnalogy": "Cơ chế định giá điện toán, thị trường tài nguyên GPU và cân bằng động tải máy chủ.",
+      "methodology": "Phân tích chi phí - lợi ích, mô hình hóa động lực và tối ưu hóa phân bổ tài nguyên."
+    },
+    {
+      "id": "politics",
+      "groupId": "institutions_economics",
+      "groupName": "Thể Chế, Kinh Tế & Động Lực Xã Hội",
+      "name": "Chính Trị & Quản Trị Công",
+      "enName": "Politics & Governance",
+      "icon": "Landmark",
+      "color": "text-teal-400",
+      "bgLight": "bg-teal-100 text-teal-900",
+      "bgDark": "bg-teal-950/60 text-teal-300",
+      "description": "Quản trị công, cấu trúc quyền lực, phân quyền (Decentralization), đồng thuận tập thể và cơ chế kiểm soát đối trọng (Checks & Balances).",
+      "coreLenses": [
+        "Lý thuyết Lựa chọn Công (Public Choice)",
+        "Chuyên chế đa số vs Quorum phi tập trung",
+        "Tam quyền phân lập trong Microservices",
+        "Chủ quyền dữ liệu & Hiến pháp AI"
+      ],
+      "keyFigures": [
+        "Machiavelli",
+        "Montesquieu",
+        "Thomas Hobbes",
+        "Hannah Arendt",
+        "James Buchanan"
+      ],
+      "systemAnalogy": "Kiến trúc RBAC/ABAC, Quorum Consensus (Raft/Paxos) và ủy quyền OAuth Scope.",
+      "methodology": "Phân tích cán cân quyền lực, thiết kế quy tắc biểu quyết và cơ chế kiểm soát đối trọng."
+    },
+    {
+      "id": "sociology",
+      "groupId": "institutions_economics",
+      "groupName": "Thể Chế, Kinh Tế & Động Lực Xã Hội",
+      "name": "Xã Hội Học & Mạng Lưới",
+      "enName": "Sociology & Network Dynamics",
+      "icon": "Users",
+      "color": "text-green-400",
+      "bgLight": "bg-green-100 text-green-900",
+      "bgDark": "bg-green-950/60 text-green-300",
+      "description": "Cấu trúc mạng xã hội, lan truyền thông tin, chuẩn mực tập thể, sức mạnh của các liên kết yếu và sự kết dính cộng đồng.",
+      "coreLenses": [
+        "Sức mạnh của liên kết yếu (Granovetter Weak Ties)",
+        "Lý thuyết Hệ thống Tự quy chiếu (Luhmann Autopoiesis)",
+        "Cấu trúc mạng thế giới nhỏ (Small-World)",
+        "Vốn xã hội & Sự tin cậy tập thể"
+      ],
+      "keyFigures": [
+        "Émile Durkheim",
+        "Max Weber",
+        "Mark Granovetter",
+        "Manuel Castells",
+        "Niklas Luhmann"
+      ],
+      "systemAnalogy": "Gossip Protocol, Peer-to-Peer Networks, Swarm Discovery & Node Clustering.",
+      "methodology": "Phân tích mạng lưới xã hội (SNA), khảo sát chuẩn mực và mô phỏng lan truyền thông tin."
+    },
+    {
+      "id": "anthropology",
+      "groupId": "institutions_economics",
+      "groupName": "Thể Chế, Kinh Tế & Động Lực Xã Hội",
+      "name": "Nhân Chủng Học & Văn Minh",
+      "enName": "Anthropology & Cultural Evolution",
+      "icon": "Globe",
+      "color": "text-lime-400",
+      "bgLight": "bg-lime-100 text-lime-900",
+      "bgDark": "bg-lime-950/60 text-lime-300",
+      "description": "Tiến hóa văn hóa nhân loại, cấu trúc huyền thoại sâu, nghi lễ chuyển tiếp, sự thích ứng sinh tồn và sụp đổ văn minh.",
+      "coreLenses": [
+        "Cấu trúc luận văn hóa sâu (Lévi-Strauss)",
+        "Mô tả sâu sắc (Thick Description Geertz)",
+        "Tiến hóa văn hóa xã hội & Sinh thái học",
+        "Sự sụp đổ của các nền văn minh (Jared Diamond)"
+      ],
+      "keyFigures": [
+        "Claude Lévi-Strauss",
+        "Clifford Geertz",
+        "Margaret Mead",
+        "Jared Diamond",
+        "Franz Boas"
+      ],
+      "systemAnalogy": "Legacy System Migration, Multi-Agent Cultural Adaptation, Protocol Evolution & Backward Compatibility.",
+      "methodology": "Quan sát tham dự, giải mã nghi thức cấu trúc và so sánh nhân loại học."
+    },
+    {
+      "id": "jurisprudence_law",
+      "groupId": "institutions_economics",
+      "groupName": "Thể Chế, Kinh Tế & Động Lực Xã Hội",
+      "name": "Luật Học & Pháp Lý Thuật Toán",
+      "enName": "Jurisprudence & Algorithmic Law",
+      "icon": "Scale",
+      "color": "text-emerald-300",
+      "bgLight": "bg-emerald-100 text-emerald-900",
+      "bgDark": "bg-emerald-950/60 text-emerald-300",
+      "description": "Triết học pháp quyền, học thuyết 'Code is Law', chủ quyền kỹ thuật số, trách nhiệm pháp lý thuật toán và hợp đồng thông minh.",
+      "coreLenses": [
+        "Nguyên tắc 'Code is Law' (Lawrence Lessig)",
+        "Quy tắc sơ cấp và thứ cấp của pháp luật (H.L.A. Hart)",
+        "Trách nhiệm giải trình thuật toán & Quyền riêng tư",
+        "Hợp đồng pháp lý số & Smart Contract Verification"
+      ],
+      "keyFigures": [
+        "H.L.A. Hart",
+        "Ronald Dworkin",
+        "Lon Fuller",
+        "Lawrence Lessig"
+      ],
+      "systemAnalogy": "Smart Contracts, Policy-as-Code (Open Policy Agent), Automated Compliance Auditing.",
+      "methodology": "Phân tích điều khoản quy phạm, kiểm toán tính tuân thủ và ánh xạ quy chế vào mã thực thi."
+    },
+    {
+      "id": "institutional_economics",
+      "groupId": "institutions_economics",
+      "groupName": "Thể Chế, Kinh Tế & Động Lực Xã Hội",
+      "name": "Kinh Tế Thể Chế Mới",
+      "enName": "New Institutional Economics",
+      "icon": "Building2",
+      "color": "text-teal-300",
+      "bgLight": "bg-teal-100 text-teal-900",
+      "bgDark": "bg-teal-950/60 text-teal-300",
+      "description": "Chi phí giao dịch (Transaction Costs), ranh giới tổ chức, quản trị tài nguyên chung và cấu trúc thể chế ràng buộc hành vi.",
+      "coreLenses": [
+        "Định lý Coase & Chi phí giao dịch",
+        "8 Nguyên tắc quản trị tài nguyên chung của Elinor Ostrom",
+        "Tính đặc thù tài sản & Ranh giới công ty (Williamson)",
+        "Sự phụ thuộc đường dẫn thể chế (Path Dependency North)"
+      ],
+      "keyFigures": [
+        "Ronald Coase",
+        "Douglass North",
+        "Oliver Williamson",
+        "Elinor Ostrom"
+      ],
+      "systemAnalogy": "API Gateway Overhead, Microservices vs Monolith Boundary, Shared Caches & Connection Pools.",
+      "methodology": "Đo lường chi phí ma sát giao dịch, thiết kế thể chế ràng buộc và kiểm soát xung đột tài nguyên."
+    },
+    {
+      "id": "game_theory",
+      "groupId": "institutions_economics",
+      "groupName": "Thể Chế, Kinh Tế & Động Lực Xã Hội",
+      "name": "Lý Thuyết Trò Chơi",
+      "enName": "Game Theory & Mechanism Design",
+      "icon": "Target",
+      "color": "text-green-300",
+      "bgLight": "bg-green-100 text-green-900",
+      "bgDark": "bg-green-950/60 text-green-300",
+      "description": "Cân bằng chiến lược, trò chơi bất hợp tác, nghịch lý tù nhân, thiết kế cơ chế khích lệ tương thích và cân bằng Nash.",
+      "coreLenses": [
+        "Cân bằng Nash & Chiến lược chi phối",
+        "Trò chơi lặp lại & Chiến lược Tit-for-Tat",
+        "Cơ chế tương thích động lực (Incentive Compatibility)",
+        "Đấu giá tổ hợp & Phân bổ tài nguyên đa tác tử"
+      ],
+      "keyFigures": [
+        "John von Neumann",
+        "John Nash",
+        "Thomas Schelling",
+        "Eric Maskin",
+        "Roger Myerson"
+      ],
+      "systemAnalogy": "Byzantine Fault Tolerance (BFT), Proof-of-Stake Slashing, Priority Bidding & Load Shedding.",
+      "methodology": "Ma trận lợi ích chiến lược, mô phỏng cân bằng Nash và tối ưu hóa động lực học hành vi."
+    },
+    {
+      "id": "circular_economics",
+      "groupId": "institutions_economics",
+      "groupName": "Thể Chế, Kinh Tế & Động Lực Xã Hội",
+      "name": "Kinh Tế Tuần Hoàn",
+      "enName": "Circular & Ecological Economics",
+      "icon": "Recycle",
+      "color": "text-emerald-500",
+      "bgLight": "bg-emerald-100 text-emerald-900",
+      "bgDark": "bg-emerald-950/60 text-emerald-300",
+      "description": "Kinh tế học Doughnut, giới hạn sinh thái hành tinh, tái chế vòng kín, giảm thiểu chất thải và bảo tồn dòng giá trị.",
+      "coreLenses": [
+        "Mô hình Doughnut Economics (Kate Raworth)",
+        "Quy luật Entropy trong kinh tế học (Georgescu-Roegen)",
+        "Thiết kế vòng kín Cradle-to-Cradle",
+        "Bảo tồn vốn tự nhiên & Hiệu suất sinh thái"
+      ],
+      "keyFigures": [
+        "Nicholas Georgescu-Roegen",
+        "Herman Daly",
+        "Kate Raworth",
+        "Ellen MacArthur"
+      ],
+      "systemAnalogy": "Garbage Collection, Memory Reclaim, Scale-to-Zero Cloud Compute, Object Pooling.",
+      "methodology": "Đánh giá vòng đời (LCA), tối ưu hóa dòng vật chất và loại bỏ rác thải dư thừa."
+    },
+    {
+      "id": "psychology",
+      "groupId": "cognition_behavior",
+      "groupName": "Nhận Thức, Tâm Lý & Não Bộ Tính Toán",
+      "name": "Tâm Lý Học Nhận Thức",
+      "enName": "Cognitive Psychology",
+      "icon": "Brain",
+      "color": "text-purple-400",
+      "bgLight": "bg-purple-100 text-purple-900",
+      "bgDark": "bg-purple-950/60 text-purple-300",
+      "description": "Hệ thống tư duy nhanh & chậm, định kiến nhận thức (Cognitive Biases), quy luật chú ý, trí nhớ làm việc và tâm lý học Gestalt.",
+      "coreLenses": [
+        "Hệ thống 1 (Nhanh/Cảm tính) & Hệ thống 2 (Chậm/Lập luận)",
+        "Định kiến tân thời (Availability & Anchoring Bias)",
+        "Trí nhớ làm việc (Working Memory Span)",
+        "Quy luật Gestalt về thị giác & Nhận thức toàn diện"
+      ],
+      "keyFigures": [
+        "Daniel Kahneman",
+        "Amos Tversky",
+        "Jean Piaget",
+        "B.F. Skinner",
+        "Carl Jung"
+      ],
+      "systemAnalogy": "Fast Speculative Decoding vs Deep Chain-of-Thought (CoT) Reasoning, Context Cache Management.",
+      "methodology": "Thực nghiệm tâm lý học nhận thức, đo lường độ tải nhận thức và kiểm soát sai lệch phán đoán."
+    },
+    {
+      "id": "neuroscience",
+      "groupId": "cognition_behavior",
+      "groupName": "Nhận Thức, Tâm Lý & Não Bộ Tính Toán",
+      "name": "Thần Kinh Học Tính Toán",
+      "enName": "Computational Neuroscience",
+      "icon": "Activity",
+      "color": "text-violet-400",
+      "bgLight": "bg-violet-100 text-violet-900",
+      "bgDark": "bg-violet-950/60 text-violet-300",
+      "description": "Mạng nơ-ron sinh học, tính dẻo tiếp hợp (Synaptic Plasticity), mã hóa xung động não, bộ nhớ hồi hải mã và cơ chế chú ý sinh học.",
+      "coreLenses": [
+        "Quy tắc học Hebbian (Neurons that fire together wire together)",
+        "Cơ chế củng cố trí nhớ Hồi hải mã (Hippocampal Replay)",
+        "Mạng lưới chế độ mặc định (Default Mode Network - DMN)",
+        "Tính dẻo nơ-ron & Thích nghi cấu trúc"
+      ],
+      "keyFigures": [
+        "Santiago Ramón y Cajal",
+        "Donald Hebb",
+        "Eric Kandel",
+        "David Hubel",
+        "Torsten Wiesel"
+      ],
+      "systemAnalogy": "Transformer Multi-Head Self-Attention, Vector RAG Retrieval, In-Context KV Cache, Weights Updating.",
+      "methodology": "Mô hình hóa mạng nơ-ron sinh học, phân tích sóng tín hiệu và ánh xạ mạch xử lý thông tin."
+    },
+    {
+      "id": "behavioral_science",
+      "groupId": "cognition_behavior",
+      "groupName": "Nhận Thức, Tâm Lý & Não Bộ Tính Toán",
+      "name": "Khoa Học Hành Vi",
+      "enName": "Behavioral Science & Nudge Dynamics",
+      "icon": "Sparkles",
+      "color": "text-fuchsia-400",
+      "bgLight": "bg-fuchsia-100 text-fuchsia-900",
+      "bgDark": "bg-fuchsia-950/60 text-fuchsia-300",
+      "description": "Thuyết Hích (Nudge Theory), kiến trúc lựa chọn, tính duy lý giới hạn Herbert Simon và động lực học định hình hành vi con người.",
+      "coreLenses": [
+        "Thuyết Hích (Nudge) & Kiến trúc lựa chọn tối ưu",
+        "Tính duy lý giới hạn (Bounded Rationality)",
+        "Hiệu ứng sở hữu (Endowment Effect) & Tâm lý sợ mất mát",
+        "Động lực nội tại vs Kích thích ngoại sinh"
+      ],
+      "keyFigures": [
+        "Richard Thaler",
+        "Cass Sunstein",
+        "Dan Ariely",
+        "Herbert Simon"
+      ],
+      "systemAnalogy": "Agent Prompt Framing, Progressive Disclosure UX, Default Fallback Configurations.",
+      "methodology": "Thử nghiệm A/B kiểm chứng hành vi, thiết kế kiến trúc lựa chọn và tối ưu hóa điểm chạm."
+    },
+    {
+      "id": "evolutionary_psychology",
+      "groupId": "cognition_behavior",
+      "groupName": "Nhận Thức, Tâm Lý & Não Bộ Tính Toán",
+      "name": "Tâm Lý Học Tiến Hóa",
+      "enName": "Evolutionary Psychology & Adaptations",
+      "icon": "Dna",
+      "color": "text-purple-300",
+      "bgLight": "bg-purple-100 text-purple-900",
+      "bgDark": "bg-purple-950/60 text-purple-300",
+      "description": "Cơ chế thích ứng tâm lý qua quá trình chọn lọc tự nhiên, mô-đun hóa trí tuệ và động lực sinh tồn bầy đàn cổ xưa.",
+      "coreLenses": [
+        "Mô-đun hóa tâm trí (Massive Modularity of Mind)",
+        "Cơ chế hợp tác tương hỗ & Vị tha tương hỗ (Trivers)",
+        "Bẫy thích ứng sai lệch trong môi trường hiện đại",
+        "Tín hiệu đáng tin cậy & Chọn lọc giới tính"
+      ],
+      "keyFigures": [
+        "Charles Darwin",
+        "Leda Cosmides",
+        "John Tooby",
+        "David Buss",
+        "Steven Pinker"
+      ],
+      "systemAnalogy": "Genetic Algorithms, Multi-Agent Specialization, Modular Micro-Agents, Survival Pruning.",
+      "methodology": "Phân tích chức năng thích ứng, khảo sát nguồn gốc tiến hóa và đối chiếu áp lực môi trường."
+    },
+    {
+      "id": "collective_intelligence",
+      "groupId": "cognition_behavior",
+      "groupName": "Nhận Thức, Tâm Lý & Não Bộ Tính Toán",
+      "name": "Trí Tuệ Tập Thể",
+      "enName": "Collective Intelligence & Distributed Cognition",
+      "icon": "Network",
+      "color": "text-violet-300",
+      "bgLight": "bg-violet-100 text-violet-900",
+      "bgDark": "bg-violet-950/60 text-violet-300",
+      "description": "Nhận thức phân tán, hiệu ứng trí tuệ đám đông, tự tổ chức thông minh bầy đàn và sự đồng thuận phi tập trung.",
+      "coreLenses": [
+        "Nhận thức phân tán (Distributed Cognition Hutchins)",
+        "Đám đông thông thái vs Tâm lý bầy đàn",
+        "Cơ chế tổng hợp tín hiệu phân tán",
+        "Trí tuệ hợp tác Người - Máy (Human-in-the-Loop)"
+      ],
+      "keyFigures": [
+        "Edwin Hutchins",
+        "Thomas Malone",
+        "Pierre Lévy",
+        "Howard Rheingold"
+      ],
+      "systemAnalogy": "Mixture of Experts (MoE), Multi-Agent Voting Ensembles, MapReduce Distributed Aggregation.",
+      "methodology": "Khảo sát tương tác phân tán, đo lường độ chính xác tổng hợp và tối ưu hóa kênh trao đổi."
+    },
+    {
+      "id": "psychoanalysis",
+      "groupId": "cognition_behavior",
+      "groupName": "Nhận Thức, Tâm Lý & Não Bộ Tính Toán",
+      "name": "Phân Tâm Học & Vô Thức",
+      "enName": "Structural Psychoanalysis & Deep Drives",
+      "icon": "Layers",
+      "color": "text-fuchsia-300",
+      "bgLight": "bg-fuchsia-100 text-fuchsia-900",
+      "bgDark": "bg-fuchsia-950/60 text-fuchsia-300",
+      "description": "Cấu trúc Id-Ego-Superego, vô thức tập thể, biểu tượng nguyên mẫu Carl Jung, cơ chế phòng vệ và động lực ngầm bên dưới hành vi.",
+      "coreLenses": [
+        "Cấu trúc Ba ngôi: Bản năng (Id) - Bản ngã (Ego) - Siêu ngã (Superego)",
+        "Vô thức tập thể & Hệ thống Nguyên mẫu (Jungian Archetypes)",
+        "Bóng tối tâm lý (Shadow) & Cơ chế phóng chiếu",
+        "Vô thức có cấu trúc như một ngôn ngữ (Lacan)"
+      ],
+      "keyFigures": [
+        "Sigmund Freud",
+        "Carl Jung",
+        "Jacques Lacan",
+        "Slavoj Žižek"
+      ],
+      "systemAnalogy": "Latent Model Representations, Unsupervised Clustering, Hidden Bias Discovery, Deep Safety Filters.",
+      "methodology": "Giải mã biểu tượng nguyên mẫu, phân tích động lực ẩn sâu và đối chiếu mâu thuẫn nội tâm."
+    },
+    {
+      "id": "physics",
+      "groupId": "math_physics_systems",
+      "groupName": "Toán-Lý, Năng Lượng & Hệ Thống Phức Tạp",
+      "name": "Vật Lý Học",
+      "enName": "Physics & Thermodynamics",
+      "icon": "Atom",
+      "color": "text-cyan-400",
+      "bgLight": "bg-cyan-100 text-cyan-900",
+      "bgDark": "bg-cyan-950/60 text-cyan-300",
+      "description": "Nhiệt động lực học, định luật bảo toàn năng lượng, entropy Clausius, nguyên lý tác dụng tối thiểu và cơ học lượng tử.",
+      "coreLenses": [
+        "Định luật Entropy & Mũi tên thời gian",
+        "Nguyên lý Tác dụng Tối thiểu (Principle of Least Action)",
+        "Định luật bảo toàn năng lượng & Xung lượng",
+        "Cân bằng động & Trạng thái dừng phi cân bằng"
+      ],
+      "keyFigures": [
+        "Isaac Newton",
+        "Ludwig Boltzmann",
+        "Albert Einstein",
+        "Erwin Schrödinger",
+        "Leonhard Euler"
+      ],
+      "systemAnalogy": "Loss Gradient Descent Minimization, Temperature Sampling in LLMs, Simulated Annealing.",
+      "methodology": "Phương trình vi phân mô hình hóa động lực, phân tích năng lượng và xác lập ranh giới định luật vật lý."
+    },
+    {
+      "id": "new_energy",
+      "groupId": "math_physics_systems",
+      "groupName": "Toán-Lý, Năng Lượng & Hệ Thống Phức Tạp",
+      "name": "Năng Lượng Mới & Sinh Thái",
+      "enName": "New Energy & Sustainable Ecology",
+      "icon": "Zap",
+      "color": "text-amber-400",
+      "bgLight": "bg-amber-100 text-amber-900",
+      "bgDark": "bg-amber-950/60 text-amber-300",
+      "description": "Hiệu suất năng lượng tính toán, giới hạn Landauer, chuyển dịch năng lượng tái tạo và điện toán xanh bền vững.",
+      "coreLenses": [
+        "Giới hạn năng lượng nhiệt động Landauer (Xóa 1 bit = kT ln 2)",
+        "Tỷ suất năng lượng hoàn trả (EROI)",
+        "Lý thuyết Hệ sinh thái Gaia (James Lovelock)",
+        "Hiệu suất PUE & Điện toán Zero-Carbon"
+      ],
+      "keyFigures": [
+        "Rolf Landauer",
+        "Howard T. Odum",
+        "James Lovelock",
+        "Nikola Tesla",
+        "Amory Lovins"
+      ],
+      "systemAnalogy": "Energy-per-Token Optimization, 4-bit/8-bit Quantization, Green Cloud Scheduling.",
+      "methodology": "Kiểm toán phát thải năng lượng, phân tích hiệu suất nhiệt và tối ưu hóa hạ tầng điện toán."
+    },
+    {
+      "id": "complex_systems",
+      "groupId": "math_physics_systems",
+      "groupName": "Toán-Lý, Năng Lượng & Hệ Thống Phức Tạp",
+      "name": "Hệ Thống Phức Tạp",
+      "enName": "Complex Adaptive Systems & Emergence",
+      "icon": "Network",
+      "color": "text-blue-400",
+      "bgLight": "bg-blue-100 text-blue-900",
+      "bgDark": "bg-blue-950/60 text-blue-300",
+      "description": "Tính trồi (Emergence), hệ thích ứng phức tạp (CAS), rìa của sự hỗn loạn, vòng phản hồi phi tuyến và khả năng tự phục hồi.",
+      "coreLenses": [
+        "Tính trồi phi tuyến (Emergence: The whole is greater than the parts)",
+        "Rìa của sự hỗn loạn (Edge of Chaos Kaufmann)",
+        "Vòng lặp phản hồi dương (Khuếch đại) & Phản hồi âm (Ổn định)",
+        "Cấu trúc tiêu tán năng lượng (Prigogine Dissipative Structures)"
+      ],
+      "keyFigures": [
+        "Norbert Wiener",
+        "John Holland",
+        "Stuart Kauffman",
+        "Ilya Prigogine",
+        "Murray Gell-Mann"
+      ],
+      "systemAnalogy": "Self-Organizing Agent Swarms, Dynamic Backpressure, Resilient Service Mesh.",
+      "methodology": "Mô phỏng dựa trên tác tử (Agent-Based Modeling), phân tích pha chuyển dịch và lập bản đồ vòng lặp."
+    },
+    {
+      "id": "discrete_math_graphs",
+      "groupId": "math_physics_systems",
+      "groupName": "Toán-Lý, Năng Lượng & Hệ Thống Phức Tạp",
+      "name": "Toán Rời Rạc & Đồ Thị",
+      "enName": "Discrete Mathematics & Graph Theory",
+      "icon": "GitFork",
+      "color": "text-cyan-300",
+      "bgLight": "bg-cyan-100 text-cyan-900",
+      "bgDark": "bg-cyan-950/60 text-cyan-300",
+      "description": "Lý thuyết đồ thị, cây bao trùm, tô màu đồ thị, đại số Boolean, lý thuyết tổ hợp và thuật toán cấu trúc rời rạc.",
+      "coreLenses": [
+        "Đồ thị định hướng phi chu trình (DAG)",
+        "Thuật toán đường đi ngắn nhất (Dijkstra, A*)",
+        "Bậc của đỉnh & Độ phân nhóm (Clustering Coefficient)",
+        "Đại số quan hệ & Cấu trúc rời rạc bất biến"
+      ],
+      "keyFigures": [
+        "Leonhard Euler",
+        "Paul Erdős",
+        "Donald Knuth",
+        "Edsger Dijkstra",
+        "László Lovász"
+      ],
+      "systemAnalogy": "Dependency Resolution DAGs, Knowledge Graphs, Network Routing & Workflow Pipelines.",
+      "methodology": "Quy nạp toán học, biểu diễn ma trận kề và tối ưu hóa đường đi trên đồ thị."
+    },
+    {
+      "id": "information_theory",
+      "groupId": "math_physics_systems",
+      "groupName": "Toán-Lý, Năng Lượng & Hệ Thống Phức Tạp",
+      "name": "Lý Thuyết Thông Tin",
+      "enName": "Information Theory & Shannon Entropy",
+      "icon": "Radio",
+      "color": "text-teal-400",
+      "bgLight": "bg-teal-100 text-teal-900",
+      "bgDark": "bg-teal-950/60 text-teal-300",
+      "description": "Entropy thông tin Shannon, dung lượng kênh truyền, nén dữ liệu tối ưu, sửa lỗi truyền tin và độ phức tạp Kolmogorov.",
+      "coreLenses": [
+        "Entropy thông tin Shannon (Đo lường mức độ bất định)",
+        "Định lý mã hóa kênh nhiễu (Noisy-Channel Coding Theorem)",
+        "Độ phức tạp thuật toán Kolmogorov",
+        "Khoảng cách Kullback-Leibler (KL Divergence)"
+      ],
+      "keyFigures": [
+        "Claude Shannon",
+        "John von Neumann",
+        "Andrey Kolmogorov",
+        "David MacKay"
+      ],
+      "systemAnalogy": "Lossless Data Compression, Context Length Scaling, Cross-Entropy Loss in LLMs, Token Efficiency.",
+      "methodology": "Tính toán entropy bit, ước lượng dung lượng kênh và kiểm soát tỷ lệ tín hiệu trên nhiễu (SNR)."
+    },
+    {
+      "id": "cybernetics",
+      "groupId": "math_physics_systems",
+      "groupName": "Toán-Lý, Năng Lượng & Hệ Thống Phức Tạp",
+      "name": "Điều Khiển Học",
+      "enName": "Cybernetics & Feedback Loops",
+      "icon": "Gauge",
+      "color": "text-sky-400",
+      "bgLight": "bg-sky-100 text-sky-900",
+      "bgDark": "bg-sky-950/60 text-sky-300",
+      "description": "Điều khiển học Wiener, định luật đa dạng cần thiết của Ashby, mô hình hệ thống sống (VSM) và vòng lặp tự hiệu chỉnh.",
+      "coreLenses": [
+        "Định luật Đa dạng Cần thiết (Ashby's Law of Requisite Variety)",
+        "Mô hình Hệ thống Sống (Viable System Model Stafford Beer)",
+        "Điều khiển vòng kín & Cơ chế Homeostasis",
+        "Điều khiển học bậc hai (Second-Order Cybernetics)"
+      ],
+      "keyFigures": [
+        "Norbert Wiener",
+        "W. Ross Ashby",
+        "Stafford Beer",
+        "Gregory Bateson"
+      ],
+      "systemAnalogy": "Closed-Loop Agent Feedback, Auto-Tuning Hyperparameters, Health Checks & Self-Regulating Probes.",
+      "methodology": "Thiết lập vòng phản hồi cảm biến - hành động, phân tích độ đa dạng trạng thái và cân bằng nội môi."
+    },
+    {
+      "id": "chaos_theory",
+      "groupId": "math_physics_systems",
+      "groupName": "Toán-Lý, Năng Lượng & Hệ Thống Phức Tạp",
+      "name": "Thuyết Hỗn Loạn",
+      "enName": "Chaos Theory & Non-linear Dynamics",
+      "icon": "Wind",
+      "color": "text-cyan-500",
+      "bgLight": "bg-cyan-100 text-cyan-900",
+      "bgDark": "bg-cyan-950/60 text-cyan-300",
+      "description": "Động lực học phi tuyến, hiệu ứng cánh bướm, tập hút kỳ lạ (Strange Attractors), hình học Fractal và tính nhạy cảm điều kiện đầu.",
+      "coreLenses": [
+        "Hiệu ứng cánh bướm (Butterfly Effect & Sensitive Dependence)",
+        "Hình học Fractal & Tính tự tương đồng (Mandelbrot)",
+        "Tập hút kỳ lạ Lorenz & Điểm phân nhánh (Bifurcation)",
+        "Tính bất định xác định (Deterministic Chaos)"
+      ],
+      "keyFigures": [
+        "Henri Poincaré",
+        "Edward Lorenz",
+        "Benoit Mandelbrot",
+        "Mitchell Feigenbaum"
+      ],
+      "systemAnalogy": "Jitter in Retries, Chaos Monkey Testing, Stochastic Gradient Perturbation, Robustness against cascading collapse.",
+      "methodology": "Vẽ biểu đồ phân nhánh, đo lường số mũ Lyapunov và nhận diện các điểm bùng phát rủi ro."
+    },
+    {
+      "id": "computational_biology",
+      "groupId": "math_physics_systems",
+      "groupName": "Toán-Lý, Năng Lượng & Hệ Thống Phức Tạp",
+      "name": "Sinh Học Tính Toán",
+      "enName": "Computational Biology & Systems Ecology",
+      "icon": "Dna",
+      "color": "text-emerald-400",
+      "bgLight": "bg-emerald-100 text-emerald-900",
+      "bgDark": "bg-emerald-950/60 text-emerald-300",
+      "description": "Hình thái học Turing, cộng sinh học, tiến hóa biểu sinh, đa dạng sinh học và các thuật toán phỏng sinh học tự nhiên.",
+      "coreLenses": [
+        "Hình thái học tính toán (Turing Morphogenesis Patterns)",
+        "Thuyết nguồn gốc cộng sinh (Symbiogenesis Margulis)",
+        "Mạng lưới tương tác Protein & Sinh thái học hệ thống",
+        "Đa dạng sinh học & Độ bền trước dịch bệnh"
+      ],
+      "keyFigures": [
+        "Alan Turing",
+        "Lynn Margulis",
+        "E.O. Wilson",
+        "Craig Venter"
+      ],
+      "systemAnalogy": "Evolutionary Search, Agent Specialization Niches, Swarm Immunity & Resilient Redundancy.",
+      "methodology": "Mô phỏng phản ứng khuếch tán, phân tích phả hệ tiến hóa và ứng dụng thuật toán phỏng sinh thái."
+    },
+    {
+      "id": "science_tech",
+      "groupId": "cs_ai_data",
+      "groupName": "Khoa Học Máy Tính, Dữ Liệu & AI Tự Trị",
+      "name": "Khoa Học & Công Nghệ",
+      "enName": "Science & Applied Technology",
+      "icon": "Atom",
+      "color": "text-blue-400",
+      "bgLight": "bg-blue-100 text-blue-900",
+      "bgDark": "bg-blue-950/60 text-blue-300",
+      "description": "Phương pháp luận thực nghiệm, công nghệ vật liệu bán dẫn, quang lượng tử và kiến trúc điện toán tiên tiến.",
+      "coreLenses": [
+        "Định luật Moore & Hậu Silicon",
+        "Phương pháp thực nghiệm Popper",
+        "Điện toán quang tử & Lượng tử",
+        "Kiểm chứng giả thuyết liên tục"
+      ],
+      "keyFigures": [
+        "Francis Bacon",
+        "Karl Popper",
+        "Richard Feynman",
+        "Gordon Moore",
+        "Tim Berners-Lee"
+      ],
+      "systemAnalogy": "Quy trình kiểm thử hồi quy CI/CD, Benchmark định lượng và Tối ưu hóa cấp độ phần cứng.",
+      "methodology": "Thực nghiệm lặp, đo lường benchmark chuẩn xác và phân tích ranh giới công nghệ."
+    },
+    {
+      "id": "computer_science",
+      "groupId": "cs_ai_data",
+      "groupName": "Khoa Học Máy Tính, Dữ Liệu & AI Tự Trị",
+      "name": "Khoa Học Máy Tính",
+      "enName": "Computer Science & Distributed Systems",
+      "icon": "Cpu",
+      "color": "text-indigo-400",
+      "bgLight": "bg-indigo-100 text-indigo-900",
+      "bgDark": "bg-indigo-950/60 text-indigo-300",
+      "description": "Hệ thống phân tán, tính toán song song, đồng thuận Raft/Paxos, cấu trúc dữ liệu bất biến và lý thuyết tính toán Turing.",
+      "coreLenses": [
+        "Định lý CAP & Định lý PACELC",
+        "Đồng hồ logic Lamport & Vector Clocks",
+        "Mô hình Tác tử Actor (Erlang Model)",
+        "Tính bất biến (Immutability) & Cấu trúc dữ liệu CRDTs"
+      ],
+      "keyFigures": [
+        "Alan Turing",
+        "Leslie Lamport",
+        "Edsger W. Dijkstra",
+        "Donald Knuth",
+        "Barbara Liskov"
+      ],
+      "systemAnalogy": "Event-Driven Microservices, Raft Consensus, Distributed Tracing & High-Availability Clusters.",
+      "methodology": "Đặc tả hình thức hệ thống, phân tích độ phức tạp thuật toán và thiết kế kiến trúc phân tán chịu lỗi."
+    },
+    {
+      "id": "artificial_intelligence",
+      "groupId": "cs_ai_data",
+      "groupName": "Khoa Học Máy Tính, Dữ Liệu & AI Tự Trị",
+      "name": "Trí Tuệ Nhân Tạo",
+      "enName": "AI & Autonomous Multi-Agent Swarms",
+      "icon": "Bot",
+      "color": "text-violet-400",
+      "bgLight": "bg-violet-100 text-violet-900",
+      "bgDark": "bg-violet-950/60 text-violet-300",
+      "description": "Hệ thống Multi-Agent tự trị, mô hình học sâu, công cụ sử dụng (Tool Use), vòng lặp suy luận ReAct và điều phối bầy đàn.",
+      "coreLenses": [
+        "Vòng lặp Suy luận - Hành động ReAct Loop",
+        "Hợp tác đa tác tử (Multi-Agent Swarm Convergence)",
+        "Học tăng cường có phản hồi con người (RLHF)",
+        "Gọi công cụ tự trị (Dynamic Tool & Code Sandbox Execution)"
+      ],
+      "keyFigures": [
+        "Geoffrey Hinton",
+        "Yann LeCun",
+        "Demis Hassabis",
+        "Stuart Russell",
+        "Marvin Minsky"
+      ],
+      "systemAnalogy": "OG Agentic Multi-Agent Workspace, Gemini Function Calling & Execution Sandbox.",
+      "methodology": "Thiết kế vòng lặp Agentic, tinh chỉnh trọng số mô hình và xây dựng ma trận đánh giá tự động."
+    },
+    {
+      "id": "cryptography_blockchain",
+      "groupId": "cs_ai_data",
+      "groupName": "Khoa Học Máy Tính, Dữ Liệu & AI Tự Trị",
+      "name": "Mật Mã Học & Sổ Cái",
+      "enName": "Cryptography & Distributed Ledgers",
+      "icon": "KeyRound",
+      "color": "text-sky-400",
+      "bgLight": "bg-sky-100 text-sky-900",
+      "bgDark": "bg-sky-950/60 text-sky-300",
+      "description": "Mã hóa bất đối xứng, hàm băm mật mã, Bằng chứng không kiến thức (ZKP), đồng thuận không cần niềm tin và sổ cái bất biến.",
+      "coreLenses": [
+        "Hàm băm một chiều & Cây Merkle (Merkle Trees)",
+        "Bằng chứng không kiến thức (Zero-Knowledge Proofs - ZKP)",
+        "Chữ ký số bất đối xứng (Ed25519, RSA)",
+        "Sổ cái phân tán bất biến & Kháng giả mạo"
+      ],
+      "keyFigures": [
+        "Claude Shannon",
+        "Whitfield Diffie",
+        "Martin Hellman",
+        "Satoshi Nakamoto",
+        "Vitalik Buterin"
+      ],
+      "systemAnalogy": "Zero-Knowledge Authentication, Content-Addressed Storage (IPFS/CID), Cryptographic Nonces, Tamper-evident Ledger.",
+      "methodology": "Phân tích an ninh mật mã, kiểm chứng chữ ký số và xây dựng giao thức không cần tin cậy trung gian."
+    },
+    {
+      "id": "knowledge_engineering",
+      "groupId": "cs_ai_data",
+      "groupName": "Khoa Học Máy Tính, Dữ Liệu & AI Tự Trị",
+      "name": "Kỹ Nghệ Tri Thức",
+      "enName": "Knowledge Engineering & Semantic Graphs",
+      "icon": "FolderGit2",
+      "color": "text-indigo-300",
+      "bgLight": "bg-indigo-100 text-indigo-900",
+      "bgDark": "bg-indigo-950/60 text-indigo-300",
+      "description": "Đồ thị tri thức (Knowledge Graphs), Ontology ngữ nghĩa, suy luận nhân quả Judea Pearl và truy xuất tri thức kết hợp RAG.",
+      "coreLenses": [
+        "Đồ thị tri thức ngữ nghĩa (Resource Description Framework - RDF)",
+        "Mô hình nhân quả Judea Pearl (Causal Inference & Do-Calculus)",
+        "Truy xuất tăng cường tri thức kết hợp đồ thị (GraphRAG)",
+        "Trích xuất thực thể & Liên kết quan hệ đa chiều"
+      ],
+      "keyFigures": [
+        "Tim Berners-Lee",
+        "Judea Pearl",
+        "Doug Lenat",
+        "Edward Feigenbaum"
+      ],
+      "systemAnalogy": "Lexicon Hub & Classical Citations Integration, Graph Database Queries, Structured Entity Extraction.",
+      "methodology": "Xây dựng bản đồ thực thể - quan hệ, suy luận logic trên ontology và liên kết ngữ nghĩa tự động."
+    },
+    {
+      "id": "llm_reasoning",
+      "groupId": "cs_ai_data",
+      "groupName": "Khoa Học Máy Tính, Dữ Liệu & AI Tự Trị",
+      "name": "Mô Hình Ngôn Ngữ & Suy Luận",
+      "enName": "Large Language Models & Reasoning Systems",
+      "icon": "Boxes",
+      "color": "text-blue-300",
+      "bgLight": "bg-blue-100 text-blue-900",
+      "bgDark": "bg-blue-950/60 text-blue-300",
+      "description": "Cơ chế chú ý Transformer, kỹ thuật suy luận chuỗi ý nghĩ (Chain-of-Thought), Tree-of-Thoughts, định luật quy mô Scaling Laws và ngữ cảnh sâu.",
+      "coreLenses": [
+        "Kiến trúc Transformer & Cơ chế Self-Attention",
+        "Chuỗi suy luận Chain-of-Thought & Tree-of-Thoughts",
+        "Định luật tỷ lệ Scaling Laws (Chinchilla / Kaplan)",
+        "Quản lý cửa sổ ngữ cảnh cực dài (Million-Token Context)"
+      ],
+      "keyFigures": [
+        "Vaswani et al.",
+        "Alec Radford",
+        "Ilya Sutskever",
+        "Noam Shazeer"
+      ],
+      "systemAnalogy": "Gemini 2.5 Flash / Pro, Thinking Budget Token Allocation, Prompt Engineering & Grounding Ingestion.",
+      "methodology": "Tối ưu hóa chiến lược Prompt, phân bổ Thinking Budget và đánh giá chất lượng suy luận logic."
+    },
+    {
+      "id": "ai_safety_alignment",
+      "groupId": "cs_ai_data",
+      "groupName": "Khoa Học Máy Tính, Dữ Liệu & AI Tự Trị",
+      "name": "An Toàn Căn Chỉnh AI",
+      "enName": "AI Safety & Constitutional Alignment",
+      "icon": "ShieldAlert",
+      "color": "text-rose-400",
+      "bgLight": "bg-rose-100 text-rose-900",
+      "bgDark": "bg-rose-950/60 text-rose-300",
+      "description": "Bài toán căn chỉnh giá trị con người (Value Alignment), Hiến pháp AI (Constitutional AI), phòng chống tấn công đối nghịch và giám sát tự động.",
+      "coreLenses": [
+        "Bài toán Căn chỉnh AI (The Alignment Problem)",
+        "Phương pháp Hiến pháp AI (Constitutional AI Anthropic)",
+        "Phát hiện ảo giác (Hallucination Detection) & Factuality",
+        "Kiểm thử đối kháng (Red Teaming) & Giám sát độc lập"
+      ],
+      "keyFigures": [
+        "Stuart Russell",
+        "Nick Bostrom",
+        "Paul Christiano",
+        "Dario Amodei"
+      ],
+      "systemAnalogy": "Safety Filters, Guardrail Middleware, Grounding Verification against Google Search, Policy Gatekeepers.",
+      "methodology": "Kiểm thử xâm nhập đối kháng (Red Teaming), đo lường độ trung thực của dữ liệu và thiết lập chốt chặn an toàn."
+    },
+    {
+      "id": "cloud_architecture",
+      "groupId": "cs_ai_data",
+      "groupName": "Khoa Học Máy Tính, Dữ Liệu & AI Tự Trị",
+      "name": "Điện Toán Đám Mây & Hạ Tầng",
+      "enName": "Cloud Architecture & Resilient Infra",
+      "icon": "Cloud",
+      "color": "text-cyan-400",
+      "bgLight": "bg-cyan-100 text-cyan-900",
+      "bgDark": "bg-cyan-950/60 text-cyan-300",
+      "description": "Kiến trúc tự phục hồi, vô máy chủ (Serverless), điều phối container, chịu lỗi phân tán và mạng lưới phân phối biên.",
+      "coreLenses": [
+        "Kiến trúc tự phục hồi (Self-Healing Systems)",
+        "Mô hình Vô máy chủ (Serverless) & Tự động mở rộng",
+        "Hạ tầng dưới dạng mã nguồn (Infrastructure-as-Code)",
+        "Độ trễ thấp & Mạng phân phối biên (Edge Computing)"
+      ],
+      "keyFigures": [
+        "Werner Vogels",
+        "Martin Fowler",
+        "Kelsey Hightower",
+        "Brendan Burns"
+      ],
+      "systemAnalogy": "Google Cloud Run Auto-scaling, Kubernetes Pod Controllers, Edge CDN Routing, Zero-Downtime Blue/Green Deploys.",
+      "methodology": "Kiểm thử tải cao độ, tự động hóa provisioning và thiết kế kiến trúc cô lập lỗi (Blast Radius Minimization)."
+    }
+  ],
+  "defaultChapterStructureSections": [
+    {
+      "id": "sec-essence",
+      "title": "1. Khảo Luận Ý Niệm & Bản Chất Vấn Đề",
+      "description": "Ý niệm nguyên thủy, bối cảnh lịch sử và nguyên lý khởi nguyên (First Principles).",
+      "enabled": true
+    },
+    {
+      "id": "sec-paradox",
+      "title": "2. Biện Chứng Nghịch Lý & Điểm Nghẽn Tiến Hóa",
+      "description": "Các xung đột lợi ích, mâu thuẫn hệ thống, điểm gãy kỹ thuật và các bẫy ngụy biện.",
+      "enabled": true
+    },
+    {
+      "id": "sec-cross",
+      "title": "3. Ma Trận Đối Chiếu Học Thuật Đa Ngành",
+      "description": "Lăng kính liên ngành, bảng so sánh đa chiều và giao thoa triết học - kỹ thuật.",
+      "enabled": true
+    },
+    {
+      "id": "sec-parity",
+      "title": "4. Ánh Xạ Trực Tiếp Sang Kiến Trúc Multi-Agent & Kỹ Nghệ Máy Tính",
+      "description": "Ánh xạ sang kiến trúc phần mềm, mô hình phân tán, Actor model và thiết kế tương tác.",
+      "enabled": true
+    },
+    {
+      "id": "sec-blueprint",
+      "title": "5. Khung Thực Thi Kiến Trúc & Đặc Tả Kỹ Thuật Phân Tán",
+      "description": "Sơ đồ luồng dữ liệu, thuật toán đồng thuận, mã giả hoặc cấu trúc Policy-as-Code.",
+      "enabled": true
+    },
+    {
+      "id": "sec-terms",
+      "title": "6. Hệ Thống Thuật Ngữ Cốt Lõi Vừa Được Bắt Tự Động",
+      "description": "Bảng thuật ngữ chuẩn hóa song ngữ và ánh xạ trực tiếp sang Computer Science.",
+      "enabled": true
+    },
+    {
+      "id": "sec-future",
+      "title": "7. Đúc Kết Tiến Hoá & 5 Điểm Tựa Kích Hoạt NotebookLM Audio Overview",
+      "description": "5 câu hỏi dẫn nhập đối thoại sâu sắc tối ưu hóa tạo Podcast hai Host thảo luận.",
+      "enabled": true
+    }
+  ],
+  "researchDepthLevels": [
+    {
+      "id": "foundational",
+      "title": "Mức 1: Khảo Cứu Nền Tảng",
+      "enTitle": "Foundational Synthesis",
+      "wordCount": "~1,500 - 2,000 từ",
+      "description": "Tổng quan sáng rõ, liên kết các khái niệm cốt lõi, phù hợp cho bài đọc nhập môn súc tích.",
+      "badgeColor": "bg-slate-800 text-slate-300"
+    },
+    {
+      "id": "advanced",
+      "title": "Mức 2: Chuyên Khảo Nghiên Cứu",
+      "enTitle": "Advanced Monograph",
+      "wordCount": "~2,500 - 3,500 từ",
+      "description": "Phân tích sâu sắc, đối chiếu ma trận kỹ thuật, trích dẫn kinh điển kèm ngữ cảnh trọn vẹn.",
+      "badgeColor": "bg-purple-900/60 text-purple-300"
+    },
+    {
+      "id": "dissertation",
+      "title": "Mức 3: Luận Văn Đột Phá Đa Chiều",
+      "enTitle": "Breakthrough Interdisciplinary Dissertation",
+      "wordCount": "~4,000 - 5,000 từ",
+      "description": "Đan cài từ 4-8 ngành khoa học, giải quyết nghịch lý kiến trúc và đưa ra khung thực thi mẫu mực.",
+      "badgeColor": "bg-indigo-900/60 text-indigo-300"
+    },
+    {
+      "id": "grand_synthesis",
+      "title": "Mức 4: Đại Đỉnh Cao Tổng Hợp Hệ Thống",
+      "enTitle": "Grand Unified Paradigm Synthesis",
+      "wordCount": "~6,000+ từ",
+      "description": "Công trình đồ sộ hợp nhất toàn diện 38+ ngành, triết học cổ điển, hệ đa tác tử và chuẩn bị hoàn hảo cho Google NotebookLM Ingestion.",
+      "badgeColor": "bg-amber-900/60 text-amber-300"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Users collection: readable by all, writable by owner or admin
+    match /users/{userId} {
+      allow read: if true;
+      allow create, update: if request.auth != null && (request.auth.uid == userId || request.auth.token.email == 'quechoa.everywhere@gmail.com');
+      allow delete: if request.auth != null && (request.auth.uid == userId || request.auth.token.email == 'quechoa.everywhere@gmail.com');
+    }
+
+    // Dossiers collection: readable by all (public academic knowledge repository)
+    // Writable by authenticated contributors/authors and admin
+    match /dossiers/{dossierId} {
+      allow read: if true;
+      allow create: if request.auth != null;
+      allow update: if request.auth != null && (
+        resource.data.ownerId == request.auth.uid ||
+        request.auth.token.email == 'quechoa.everywhere@gmail.com' ||
+        !('ownerId' in resource.data)
+      );
+      allow delete: if request.auth != null && (
+        resource == null ||
+        resource.data.ownerId == request.auth.uid ||
+        request.auth.token.email == 'quechoa.everywhere@gmail.com' ||
+        !('ownerId' in resource.data)
+      );
+    }
+
+    // System logs: token tracking & telemetry
+    match /systemLogs/{logId} {
+      allow read: if request.auth != null && (
+        request.auth.uid == resource.data.userId ||
+        request.auth.token.email == 'quechoa.everywhere@gmail.com'
+      );
+      allow create: if request.auth != null && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if request.auth != null && request.auth.token.email == 'quechoa.everywhere@gmail.com';
+    }
+
+    // System Settings: global locks & configurations
+    match /settings/{settingId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+  }
+}
+

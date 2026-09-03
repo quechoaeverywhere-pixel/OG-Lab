@@ -1,0 +1,15 @@
+
+Here is some typescript code:
+
+```typescript
+type Union = A | B | C;
+const x = 5 | 2;
+```
+
+And a table:
+
+REPAIRED: | Name | Value |
+REPAIRED: |---|---|
+REPAIRED: | A | B |
+
+

@@ -1,0 +1,6 @@
+{
+  "name": "Oneness Governance",
+  "description": "Deep Research & Knowledge Transforming",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
